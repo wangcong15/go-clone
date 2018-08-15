@@ -1,0 +1,3 @@
+{
+	return getdents(fd, buf)
+}

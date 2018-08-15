@@ -1,0 +1,3 @@
+{
+	runtime.RaceReadRange(addr, len)
+}

@@ -1,0 +1,3 @@
+{
+	return keyboard.Type(t)
+}

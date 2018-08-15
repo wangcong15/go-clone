@@ -1,0 +1,1 @@
+{ return uint64(r.Regs[64]) }

@@ -1,0 +1,3 @@
+{
+	return &LazyDLL{Name: name}
+}

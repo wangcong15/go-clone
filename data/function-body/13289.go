@@ -1,0 +1,3 @@
+{
+	fmt.Printf(format, v...)
+}

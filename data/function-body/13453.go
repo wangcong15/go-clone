@@ -1,0 +1,3 @@
+{
+	return NewColorable(os.Stdout)
+}

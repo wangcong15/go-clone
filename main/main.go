@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("hello world!")
 
 	var newIndex int = 1
 	var projects = [...]string{"/Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs",
@@ -19,7 +18,6 @@ func main() {
 		fmt.Println(projectPath)
 		files, _ := funcs.GetAllGoFiles(projectPath)
 		for _, filePath := range files {
-			fmt.Println("+++ ", filePath, " +++")
 			newIndex = funcs.AnalysisFile(filePath, newIndex)
 		}
 	}

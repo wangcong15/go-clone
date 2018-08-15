@@ -1,0 +1,1 @@
+{ e.Cookie = hex.EncodeToString(b); return nil }

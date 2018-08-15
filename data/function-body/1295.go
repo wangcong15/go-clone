@@ -1,0 +1,1 @@
+{ proto.RegisterFile("gomatcha.io/matcha/proto/view/textinput.proto", fileDescriptor6) }

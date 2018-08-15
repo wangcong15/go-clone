@@ -1,0 +1,3 @@
+{
+	ExitsCorrectly("pledge", t)
+}

@@ -1,0 +1,1 @@
+{ return base32.HexEncoding.EncodeToString(b) }

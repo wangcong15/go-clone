@@ -1,0 +1,1 @@
+{ fcntl(fd, F_SETFD, FD_CLOEXEC) }

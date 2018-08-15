@@ -1,0 +1,1 @@
+{ return syscall.Getpagesize() }

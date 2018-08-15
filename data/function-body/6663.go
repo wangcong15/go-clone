@@ -1,0 +1,1 @@
+{ return nil, syscall.EWINDOWS }

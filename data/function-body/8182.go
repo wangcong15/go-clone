@@ -1,0 +1,1 @@
+{ return rr.Hdr.String() + euiToString(rr.Address, 48) }

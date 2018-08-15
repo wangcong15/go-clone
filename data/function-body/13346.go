@@ -1,0 +1,1 @@
+{ colorPrint(format, FgCyan, a...) }

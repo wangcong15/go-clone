@@ -1,0 +1,1 @@
+{ return kill(pid, int(signum), 1) }

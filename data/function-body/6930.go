@@ -1,0 +1,3 @@
+{
+	*r = funcPC(servicemain)
+}

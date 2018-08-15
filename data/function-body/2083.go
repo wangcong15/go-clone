@@ -1,0 +1,3 @@
+{
+	return syscall.Getenv(key)
+}

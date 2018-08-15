@@ -1,0 +1,1 @@
+{ return bytes.Compare(t[i].Key, t[j].Key) == 1 }

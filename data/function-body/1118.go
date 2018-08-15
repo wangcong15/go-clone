@@ -1,0 +1,1 @@
+{ proto.RegisterFile("gomatcha.io/matcha/proto/pointer/pointer.proto", fileDescriptor0) }

@@ -1,0 +1,1 @@
+{ testAXFRSIDN(t, "yadifa", HmacSHA256) }

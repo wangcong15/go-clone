@@ -1,0 +1,3 @@
+{
+	return cmsgAlignOf(SizeofCmsghdr) + datalen
+}

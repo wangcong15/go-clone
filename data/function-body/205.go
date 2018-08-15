@@ -1,0 +1,3 @@
+{
+	g.Options.Parallelization = isEnabled
+}

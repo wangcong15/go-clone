@@ -1,0 +1,1 @@
+{ return proto1.CompactTextString(m) }
