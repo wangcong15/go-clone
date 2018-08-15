@@ -1,14 +1,14 @@
-package main
+package test
 
 import (
-	"go-clone/cfg"
 	"fmt"
+	"go-clone/cfg"
 	"go/ast"
 	"go/parser"
 	"go/token"
 )
 
-func main() {
+func Test() {
 	fmt.Println("Hello Test")
 	// source code of golang function
 	src := `package main
@@ -23,7 +23,7 @@ func main() {
 				return 0
 			}
 			func T() {
-				
+
 			}
 			func F() {
 
@@ -39,12 +39,12 @@ func main() {
 
 	ast.Inspect(file, func(x ast.Node) bool {
 		switch n := x.(type) {
-			case *ast.FuncDecl:
-				fmt.Println("--- ", n.Name ," ---")
-				fmt.Println(n.Body)
-				cfg_data := cfg.New(n.Body, mayReturn)
-				fmt.Println(cfg_data)
-				fmt.Println(cfg_data.Format(fset))
+		case *ast.FuncDecl:
+			fmt.Println("--- ", n.Name, " ---")
+			fmt.Println(n.Body)
+			cfg_data := cfg.New(n.Body, mayReturn)
+			fmt.Println(cfg_data)
+			fmt.Println(cfg_data.Format(fset))
 		}
 		return true
 	})
