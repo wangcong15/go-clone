@@ -1,4 +1,3 @@
-/Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs
 /Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs/cmd/dungeonfs/main.go, main, 150 bytes
 /Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs/cmd/dungeonfs/command/mount.go, NewMountCommand, 267 bytes
 /Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs/cmd/dungeonfs/command/mount.go, runMountCommand, 1509 bytes
@@ -129,7 +128,6 @@
 /Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs/pkg/logging/logging.go, SetLogger, 15 bytes
 /Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs/pkg/logging/logging.go, Printf, 3 bytes
 /Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs/pkg/logging/logging.go, Printf, 29 bytes
-/Users/wangcong.666/go/src/github.com/disintegration/gift
 /Users/wangcong.666/go/src/github.com/disintegration/gift/colors.go, prepareLut, 151 bytes
 /Users/wangcong.666/go/src/github.com/disintegration/gift/colors.go, getFromLut, 57 bytes
 /Users/wangcong.666/go/src/github.com/disintegration/gift/colors.go, Bounds, 73 bytes
@@ -349,7 +347,6 @@
 /Users/wangcong.666/go/src/github.com/disintegration/gift/utils_test.go, TestDisk, 984 bytes
 /Users/wangcong.666/go/src/github.com/disintegration/gift/utils_test.go, TestIsOpaque, 1868 bytes
 /Users/wangcong.666/go/src/github.com/disintegration/gift/utils_test.go, checkBoundsAndPix, 181 bytes
-/Users/wangcong.666/go/src/github.com/gomatcha/matcha
 /Users/wangcong.666/go/src/github.com/gomatcha/matcha/id.go, init, 31 bytes
 /Users/wangcong.666/go/src/github.com/gomatcha/matcha/animate/animation.go, Notify, 29 bytes
 /Users/wangcong.666/go/src/github.com/gomatcha/matcha/animate/animation.go, Unnotify, 25 bytes
@@ -1804,7 +1801,6 @@
 /Users/wangcong.666/go/src/github.com/gomatcha/matcha/view/ios/tabview.go, Update, 115 bytes
 /Users/wangcong.666/go/src/github.com/gomatcha/matcha/view/ios/tabview.go, Build, 1966 bytes
 /Users/wangcong.666/go/src/github.com/gomatcha/matcha/view/ios/tabview.go, OptionKey, 44 bytes
-/Users/wangcong.666/go/src/github.com/kelseyhightower/kube-cert-manager
 /Users/wangcong.666/go/src/github.com/kelseyhightower/kube-cert-manager/acme.go, newACMEClient, 244 bytes
 /Users/wangcong.666/go/src/github.com/kelseyhightower/kube-cert-manager/acme.go, Register, 76 bytes
 /Users/wangcong.666/go/src/github.com/kelseyhightower/kube-cert-manager/acme.go, Authorize, 381 bytes
@@ -13153,7 +13149,6 @@
 /Users/wangcong.666/go/src/github.com/kelseyhightower/kube-cert-manager/vendor/golang.org/x/sys/unix/zsyscall_solaris_amd64.go, setsockopt, 185 bytes
 /Users/wangcong.666/go/src/github.com/kelseyhightower/kube-cert-manager/vendor/golang.org/x/sys/unix/zsyscall_solaris_amd64.go, recvfrom, 310 bytes
 /Users/wangcong.666/go/src/github.com/kelseyhightower/kube-cert-manager/vendor/golang.org/x/sys/unix/zsyscall_solaris_amd64.go, sysconf, 151 bytes
-/Users/wangcong.666/go/src/github.com/spolu/warp
 /Users/wangcong.666/go/src/github.com/spolu/warp/client/cli.go, New, 438 bytes
 /Users/wangcong.666/go/src/github.com/spolu/warp/client/cli.go, Run, 440 bytes
 /Users/wangcong.666/go/src/github.com/spolu/warp/client/config.go, ConfigPath, 231 bytes
