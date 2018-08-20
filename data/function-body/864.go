@@ -1,0 +1,3 @@
+{
+	return &Anchor{notifierAnchor{n}}
+}

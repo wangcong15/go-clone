@@ -1,0 +1,1 @@
+{ colorPrint(format, FgYellow, a...) }

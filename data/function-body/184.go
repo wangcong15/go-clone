@@ -1,0 +1,5 @@
+{
+	return &gausssianBlurFilter{
+		sigma: sigma,
+	}
+}

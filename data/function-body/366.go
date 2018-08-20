@@ -1,0 +1,3 @@
+{
+	return ColorInterpolate(n, e)
+}

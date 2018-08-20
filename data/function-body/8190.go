@@ -1,0 +1,1 @@
+{ return rr.Hdr.String() + rr.PublicKey }

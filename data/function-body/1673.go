@@ -1,0 +1,5 @@
+{
+	return &Switch{
+		Enabled: true,
+	}
+}

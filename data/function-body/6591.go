@@ -1,0 +1,3 @@
+{
+	return CloseHandle(fd)
+}

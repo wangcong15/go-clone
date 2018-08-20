@@ -1,0 +1,3 @@
+{
+	return dns.PackBuffer(nil)
+}

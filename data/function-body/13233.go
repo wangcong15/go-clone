@@ -1,0 +1,3 @@
+{
+	cli.Registrar[CmdNmState] = NewState
+}

@@ -1,0 +1,1 @@
+{ return &ServeMux{z: make(map[string]Handler), m: new(sync.RWMutex)} }

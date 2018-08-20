@@ -1,0 +1,5 @@
+{
+	return &TabView{
+		Tabs: &Tabs{},
+	}
+}

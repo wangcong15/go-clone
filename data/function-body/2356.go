@@ -1,0 +1,1 @@
+{ return w&mask != stopped && w&mask != exited }

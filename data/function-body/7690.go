@@ -1,0 +1,1 @@
+{ return EDNS0COOKIE }

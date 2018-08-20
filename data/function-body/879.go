@@ -1,0 +1,3 @@
+{
+	s.TopEqual(Const(v))
+}

@@ -1,0 +1,1 @@
+{ testAXFRSIDN(t, "bind9", "") }

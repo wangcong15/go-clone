@@ -1,0 +1,5 @@
+{
+	return Embed{
+		key: key,
+	}
+}

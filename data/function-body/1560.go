@@ -1,0 +1,3 @@
+{
+	f.clear(styleKeyTruncationString)
+}

@@ -1,0 +1,3 @@
+{
+	inv.Children().Delete(name)
+}

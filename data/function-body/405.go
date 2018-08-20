@@ -1,0 +1,3 @@
+{
+	return newValue(C.MatchaForeignNil())
+}

@@ -1,0 +1,3 @@
+{
+	return b.tx.writable
+}

@@ -1,0 +1,3 @@
+{
+	runtime.RaceReleaseMerge(addr)
+}

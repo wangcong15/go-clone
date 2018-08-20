@@ -1,0 +1,3 @@
+{
+	f.set(styleKeyFont, v)
+}

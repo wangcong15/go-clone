@@ -1,0 +1,3 @@
+{
+	runtime.RaceWriteRange(addr, len)
+}

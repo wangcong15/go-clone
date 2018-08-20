@@ -1,0 +1,3 @@
+{
+	cli.Registrar[CmdNmHelp] = NewHelp
+}

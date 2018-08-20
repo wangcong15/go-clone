@@ -1,0 +1,1 @@
+{ return &StringToUTF16(s)[0] }

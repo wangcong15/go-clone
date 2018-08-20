@@ -1,0 +1,1 @@
+{ testAXFRSIDN(t, "nsd", HmacMD5) }

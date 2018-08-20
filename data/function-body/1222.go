@@ -1,0 +1,1 @@
+{ proto.RegisterFile("gomatcha.io/matcha/proto/view/imageview.proto", fileDescriptor2) }

@@ -1,0 +1,3 @@
+{
+	return g.Options.Parallelization
+}

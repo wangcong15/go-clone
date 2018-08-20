@@ -1,0 +1,3 @@
+{
+	bold.PrintfFunc()(format, v...)
+}

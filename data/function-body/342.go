@@ -1,0 +1,3 @@
+{
+	copyimage(dst, src, options)
+}

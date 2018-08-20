@@ -1,0 +1,3 @@
+{
+	return FloatInterpolate(a, e)
+}

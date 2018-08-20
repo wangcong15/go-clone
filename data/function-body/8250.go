@@ -1,0 +1,1 @@
+{ testAXFRSIDN(t, "nsd4", HmacSHA256) }

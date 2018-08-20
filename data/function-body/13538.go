@@ -1,0 +1,3 @@
+{
+	return syscall.Environ()
+}

@@ -1,0 +1,3 @@
+{
+	return FreeLibrary(d.Handle)
+}

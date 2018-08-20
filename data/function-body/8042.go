@@ -1,0 +1,1 @@
+{ DefaultServeMux.HandleRemove(pattern) }
