@@ -2,23 +2,35 @@ package main
 
 import (
 	"fmt"
-	"go-clone/funcs"
 )
 
 func main() {
 
-	var newIndex int = 1
-	var projects = [...]string{"/Users/wangcong.666/go/src/github.com/ChrisRx/dungeonfs",
-		"/Users/wangcong.666/go/src/github.com/disintegration/gift",
-		"/Users/wangcong.666/go/src/github.com/gomatcha/matcha",
-		"/Users/wangcong.666/go/src/github.com/kelseyhightower/kube-cert-manager",
-		"/Users/wangcong.666/go/src/github.com/spolu/warp"}
+	var newIdx int
+	var funcInfos []FuncInfo
+	var dirs, err = getSubDirs("../llvm-ir-data")
+	if err != nil {
+		panic(err)
+	}
 
-	for _, projectPath := range projects {
-		fmt.Println(projectPath)
-		files, _ := funcs.GetAllGoFiles(projectPath)
+	for _, projectPath := range dirs {
+		fmt.Println("--- processing project: " + projectPath)
+
+		projectName := ProjectPath2Name(projectPath)
+		fmt.Println("project name: " + projectName)
+		files, _ := getFileWithExtension(projectPath, "ll")
 		for _, filePath := range files {
-			newIndex = funcs.AnalysisFile(filePath, newIndex)
+			fmt.Println("now parsing ir file: " + filePath)
+			fis := ParseIR(filePath, newIdx)
+			for _, fi := range fis {
+				fi.idx = newIdx
+				fi.projName = projectName
+				funcInfos = append(funcInfos, fi)
+				newIdx++
+			}
 		}
 	}
+
+	funcInfoDic := funcInfo2Dic(funcInfos)
+	writeFunctionInfo("../data/function-info.txt", funcInfoDic)
 }
