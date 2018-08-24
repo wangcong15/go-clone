@@ -1,3 +1,0 @@
-{
-	root.node.paint()
-}

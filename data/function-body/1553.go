@@ -1,3 +1,0 @@
-{
-	f.set(styleKeyWrap, v)
-}

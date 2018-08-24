@@ -1,3 +1,0 @@
-{
-	MainLocker = &sync.Mutex{}
-}

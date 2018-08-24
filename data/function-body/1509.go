@@ -1,3 +1,0 @@
-{
-	return pbtext.UnderlineStyle(a)
-}

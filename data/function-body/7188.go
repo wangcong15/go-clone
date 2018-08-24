@@ -1,1 +1,0 @@
-{ testDB_Close_PendingTx(t, false) }

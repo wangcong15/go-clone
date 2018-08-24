@@ -1,3 +1,0 @@
-{
-	return NewColorable(os.Stderr)
-}

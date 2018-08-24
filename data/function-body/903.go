@@ -1,3 +1,0 @@
-{
-	s.CenterXEqual(Const(v))
-}

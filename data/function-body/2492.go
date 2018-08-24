@@ -1,1 +1,0 @@
-{ r.Uregs[15] = uint32(pc) }

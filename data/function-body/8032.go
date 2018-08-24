@@ -1,1 +1,0 @@
-{ return HandlerFunc(HandleFailed) }

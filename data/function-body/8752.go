@@ -1,3 +1,0 @@
-{
-	ExitsCorrectly("pledge", t)
-}

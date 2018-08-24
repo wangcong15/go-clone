@@ -1,3 +1,0 @@
-{
-	c.noColor = boolPtr(true)
-}

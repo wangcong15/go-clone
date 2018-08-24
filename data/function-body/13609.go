@@ -1,3 +1,0 @@
-{
-	return SysctlArgs(name)
-}

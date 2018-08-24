@@ -1,5 +1,0 @@
-{
-	return &PagerView{
-		Pages: &Pages{},
-	}
-}

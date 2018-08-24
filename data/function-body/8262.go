@@ -1,1 +1,0 @@
-{ testAXFRSIDN(t, "powerdns", HmacSHA256) }

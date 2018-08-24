@@ -1,1 +1,0 @@
-{ benchmark_FreelistRelease(b, 1000000) }

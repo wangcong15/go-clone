@@ -1,5 +1,0 @@
-{
-	return &Button{
-		Enabled: true,
-	}
-}

@@ -1,5 +1,0 @@
-{
-	return &transformFilter{
-		tt: ttFlipVertical,
-	}
-}

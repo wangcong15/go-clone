@@ -1,3 +1,0 @@
-{
-	syscall.Clearenv()
-}

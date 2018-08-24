@@ -1,3 +1,0 @@
-{
-	syscall.Fixwd()
-}

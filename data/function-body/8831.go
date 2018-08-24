@@ -1,1 +1,0 @@
-{ return ptrace(PT_DETACH, pid, 0, 0) }

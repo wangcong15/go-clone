@@ -1,3 +1,0 @@
-{
-	return ios.NewStackView()
-}

@@ -1,3 +1,0 @@
-{
-	v.view.Unnotify(id)
-}

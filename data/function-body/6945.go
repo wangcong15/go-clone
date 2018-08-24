@@ -1,3 +1,0 @@
-{
-	return &ConsoleLog{Name: source}
-}

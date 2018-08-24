@@ -1,3 +1,0 @@
-{
-	rr.Hdr.Class = size
-}

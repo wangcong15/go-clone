@@ -1,3 +1,0 @@
-{
-	return CloseHandle(Handle(t))
-}

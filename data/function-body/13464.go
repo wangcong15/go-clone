@@ -1,3 +1,0 @@
-{
-	return &NonColorable{out: w}
-}

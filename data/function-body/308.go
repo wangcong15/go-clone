@@ -1,5 +1,0 @@
-{
-	return &cropFilter{
-		rect: rect,
-	}
-}

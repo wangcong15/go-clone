@@ -1,1 +1,0 @@
-{ proto.RegisterFile("gomatcha.io/matcha/proto/app/statusbar.proto", fileDescriptor0) }

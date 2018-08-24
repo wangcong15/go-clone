@@ -1,1 +1,0 @@
-{ return r.Hdr.len() + r.Data.Len() }

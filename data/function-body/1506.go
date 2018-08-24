@@ -1,1 +1,0 @@
-{ proto.RegisterFile("gomatcha.io/matcha/proto/view/ios/tabview.proto", fileDescriptor3) }

@@ -1,3 +1,0 @@
-{
-	cyan.PrintfFunc()(format, v...)
-}

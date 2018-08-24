@@ -1,5 +1,0 @@
-{
-	return &SwitchView{
-		value: true,
-	}
-}

@@ -1,3 +1,0 @@
-{
-	testExchangedataForWatcher(t, false)
-}

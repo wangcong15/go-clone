@@ -1,5 +1,0 @@
-{
-	return &StackBarItem{
-		Enabled: true,
-	}
-}

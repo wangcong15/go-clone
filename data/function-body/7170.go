@@ -1,1 +1,0 @@
-{ fmt.Fprintf(os.Stderr, msg+"\n", v...) }

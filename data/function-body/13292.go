@@ -1,3 +1,0 @@
-{
-	yellow.PrintfFunc()(format, v...)
-}

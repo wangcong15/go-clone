@@ -1,5 +1,0 @@
-{
-	return &pixelateFilter{
-		size: size,
-	}
-}

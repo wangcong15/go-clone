@@ -1,1 +1,0 @@
-{ return rd.addr[0].String() + " " + rd.addr[1].String() }

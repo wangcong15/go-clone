@@ -1,1 +1,0 @@
-{ benchmarkMedianSize(b, 3) }

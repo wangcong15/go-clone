@@ -1,5 +1,0 @@
-{
-	return &Radix{
-		root: &Node{},
-	}
-}

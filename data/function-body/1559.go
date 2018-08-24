@@ -1,3 +1,0 @@
-{
-	f.set(styleKeyTruncationString, v)
-}

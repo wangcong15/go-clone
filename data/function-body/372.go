@@ -1,3 +1,0 @@
-{
-	w.watcher.Unnotify(id)
-}

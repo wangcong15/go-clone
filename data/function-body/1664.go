@@ -1,3 +1,0 @@
-{
-	p.setValue(val, false)
-}

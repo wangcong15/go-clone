@@ -1,3 +1,0 @@
-{
-	embedUpdate = true
-}

@@ -1,3 +1,0 @@
-{
-	s.Objects[k] = v
-}

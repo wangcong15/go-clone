@@ -1,1 +1,0 @@
-{ testAXFRSIDN(t, "knot", HmacSHA1) }

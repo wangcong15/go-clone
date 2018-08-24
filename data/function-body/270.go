@@ -1,3 +1,0 @@
-{
-	return r.kernel(x)
-}

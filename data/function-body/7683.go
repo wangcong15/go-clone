@@ -1,1 +1,0 @@
-{ e.Nsid = hex.EncodeToString(b); return nil }

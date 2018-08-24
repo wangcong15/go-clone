@@ -1,3 +1,0 @@
-{
-	return mapper.Munmap(b)
-}

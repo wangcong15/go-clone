@@ -1,3 +1,0 @@
-{
-	return procCreateSymbolicLinkW.Find()
-}

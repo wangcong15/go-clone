@@ -1,1 +1,0 @@
-{ proto.RegisterFile("gomatcha.io/matcha/proto/keyboard/keyboard.proto", fileDescriptor0) }

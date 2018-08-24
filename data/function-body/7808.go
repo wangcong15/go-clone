@@ -1,1 +1,0 @@
-{ return base64.StdEncoding.EncodeToString(b) }

@@ -1,1 +1,0 @@
-{ e.AlgCode = b; return nil }

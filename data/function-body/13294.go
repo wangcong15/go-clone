@@ -1,3 +1,0 @@
-{
-	magenta.PrintfFunc()(format, v...)
-}

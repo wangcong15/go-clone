@@ -1,3 +1,0 @@
-{
-	s.HeightEqual(Const(v))
-}

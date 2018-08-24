@@ -1,3 +1,0 @@
-{
-	return len(n.inodes)
-}

@@ -1,1 +1,0 @@
-{ return colorString(format, FgRed, a...) }

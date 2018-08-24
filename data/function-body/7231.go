@@ -1,3 +1,0 @@
-{
-	return len(f.ids)
-}

@@ -1,3 +1,0 @@
-{
-	DefaultServeMux.HandleFunc(pattern, handler)
-}

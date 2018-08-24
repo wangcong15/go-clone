@@ -1,1 +1,0 @@
-{ return color.NRGBA{0, 0, 0, 0} }

@@ -1,3 +1,0 @@
-{
-	s.WidthEqual(Const(v))
-}

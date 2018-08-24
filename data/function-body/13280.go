@@ -1,3 +1,0 @@
-{
-	return ErrorStack(e)
-}

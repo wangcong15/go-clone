@@ -1,1 +1,0 @@
-{ w.tsigTimersOnly = b }

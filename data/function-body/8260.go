@@ -1,1 +1,0 @@
-{ testAXFRSIDN(t, "powerdns", HmacMD5) }

@@ -1,5 +1,0 @@
-{
-	return &CustomView{
-		Enabled: true,
-	}
-}

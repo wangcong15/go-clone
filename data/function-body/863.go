@@ -1,3 +1,0 @@
-{
-	return &Anchor{constAnchor(f)}
-}

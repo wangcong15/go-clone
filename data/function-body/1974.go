@@ -1,3 +1,0 @@
-{
-	runtime.RaceAcquire(addr)
-}

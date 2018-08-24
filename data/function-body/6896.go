@@ -1,3 +1,0 @@
-{
-	return procRegLoadMUIStringW.Find()
-}

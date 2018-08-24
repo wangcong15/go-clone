@@ -1,3 +1,0 @@
-{
-	cli.Registrar[CmdNmAuthorize] = NewAuthorize
-}

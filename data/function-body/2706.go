@@ -1,1 +1,0 @@
-{ return w&mask == stopped && syscall.Signal(w>>shift) != SIGSTOP }

@@ -1,3 +1,0 @@
-{
-	return r.root.debugString()
-}

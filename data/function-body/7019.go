@@ -1,3 +1,0 @@
-{
-	return b.tx
-}

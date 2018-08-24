@@ -1,3 +1,0 @@
-{
-	return db.readOnly
-}

@@ -1,3 +1,0 @@
-{
-	return a.n.Value()
-}

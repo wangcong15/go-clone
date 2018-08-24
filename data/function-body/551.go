@@ -1,3 +1,0 @@
-{
-	v.relay.Unnotify(id)
-}

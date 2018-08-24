@@ -1,1 +1,0 @@
-{ return w.Signaled() && w&core != 0 }

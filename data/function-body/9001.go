@@ -1,1 +1,0 @@
-{ return w&mask == exited }

@@ -1,4 +1,0 @@
-{
-	fixwd()
-	return remove(path)
-}

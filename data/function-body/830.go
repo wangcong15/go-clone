@@ -1,3 +1,0 @@
-{
-	g.value.Unnotify(id)
-}

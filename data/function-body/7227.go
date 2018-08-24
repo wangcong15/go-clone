@@ -1,1 +1,0 @@
-{ return binary.BigEndian.Uint64(b) }

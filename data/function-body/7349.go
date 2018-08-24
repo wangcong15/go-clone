@@ -1,3 +1,0 @@
-{
-	return tx.root.Cursor()
-}

@@ -1,1 +1,0 @@
-{ return strconv.FormatUint(uint64(e.Lease), 10) }

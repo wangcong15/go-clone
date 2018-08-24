@@ -1,1 +1,0 @@
-{ return w&0xFF == stopped }

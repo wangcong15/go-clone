@@ -1,3 +1,0 @@
-{
-	redBold.PrintfFunc()(format, v...)
-}

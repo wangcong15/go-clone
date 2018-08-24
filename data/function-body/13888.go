@@ -1,1 +1,0 @@
-{ return uint64(r.Uregs[15]) }

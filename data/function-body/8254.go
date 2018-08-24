@@ -1,1 +1,0 @@
-{ testAXFRSIDN(t, "bind9", HmacSHA256) }

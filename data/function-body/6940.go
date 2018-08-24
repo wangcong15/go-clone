@@ -1,3 +1,0 @@
-{
-	return windows.Handle(ssHandle)
-}

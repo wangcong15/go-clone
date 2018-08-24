@@ -1,3 +1,0 @@
-{
-	return pbtext.StrikethroughStyle(a)
-}

@@ -1,3 +1,0 @@
-{
-	return n.props.SSID
-}

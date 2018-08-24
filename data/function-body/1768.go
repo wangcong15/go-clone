@@ -1,5 +1,0 @@
-{
-	return &SegmentView{
-		Enabled: true,
-	}
-}

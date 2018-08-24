@@ -1,3 +1,0 @@
-{
-	s.RightEqual(Const(v))
-}
