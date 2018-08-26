@@ -21,16 +21,17 @@ func main() {
 		files, _ := getFileWithExtension(projectPath, "ll")
 		for _, filePath := range files {
 			fmt.Println("now parsing ir file: " + filePath)
-			fis := ParseIR(filePath, newIdx)
+			fis, returnIdx := ParseIR(filePath, newIdx)
 			for _, fi := range fis {
-				fi.idx = newIdx
 				fi.projName = projectName
 				funcInfos = append(funcInfos, fi)
 				newIdx++
 			}
+			newIdx = returnIdx
 		}
 	}
 
 	funcInfoDic := funcInfo2Dic(funcInfos)
 	writeFunctionInfo("../data/function-info.txt", funcInfoDic)
+	writeFunctionIR("../data/function-ir", funcInfos)
 }
