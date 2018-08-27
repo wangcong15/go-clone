@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 func checkError(e error) {
@@ -28,7 +28,7 @@ func funcInfo2Dic(functionInfo []FuncInfo) (functionInfoDic map[int]string) {
 // writeFunctionInfo : write the function info into a json file
 func writeFunctionInfo(fileName string, functionInfoDic map[int]string) {
 
-	jsonData, err := json.Marshal(functionInfoDic)
+	jsonData, err := json.MarshalIndent(functionInfoDic, "", "	")
 	checkError(err)
 
 	jsonFile, err := os.Create(fileName)
@@ -53,13 +53,13 @@ func writeFunctionIR(dirName string, functionInfo []FuncInfo) {
 }
 
 // writeWithFileWrite
-func writeWithFileWrite(name, content string){
-    fileObj, err := os.OpenFile(name,os.O_RDWR|os.O_CREATE|os.O_TRUNC,0644)
-    checkError(err)
-    defer fileObj.Close()
+func writeWithFileWrite(name, content string) {
+	fileObj, err := os.OpenFile(name, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0644)
+	checkError(err)
+	defer fileObj.Close()
 	_, err = fileObj.WriteString(content)
 	checkError(err)
-    contents := []byte(content)
+	contents := []byte(content)
 	_, err = fileObj.Write(contents)
 	checkError(err)
 }
