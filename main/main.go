@@ -37,6 +37,7 @@ func extractIRInfoAndBody() {
 }
 
 func analyseIRInfo() {
+	fmt.Println("loading json file ...")
 	jsonResult, err := readJsonFile("../data/function-info.json")
 	checkError(err)
 	funcNameCount := make(map[string]int)
@@ -44,7 +45,7 @@ func analyseIRInfo() {
 		vArr := strings.Split(v, ", ")
 		tempFuncName := vArr[len(vArr)-1]
 		if _, ok := funcNameCount[tempFuncName]; ok {
-			funcNameCount[tempFuncName] += 1
+			funcNameCount[tempFuncName]++
 		} else {
 			funcNameCount[tempFuncName] = 1
 		}
