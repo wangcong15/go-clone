@@ -40,6 +40,23 @@ func writeFunctionInfo(fileName string, functionInfoDic map[int]string) {
 
 }
 
+// readJsonFile : read a json file, format as "string --> string"
+func readJsonFile(filename string) (map[string]string, error) {
+	var jsonToReturn map[string]string
+	bytes, err := ioutil.ReadFile(filename)
+	if err != nil {
+		fmt.Println("ReadFile: ", err.Error())
+		return nil, err
+	}
+
+	if err := json.Unmarshal(bytes, &jsonToReturn); err != nil {
+		fmt.Println("Unmarshal: ", err.Error())
+		return nil, err
+	}
+
+	return jsonToReturn, nil
+}
+
 // writeFunctionIR : extract ir from *.ll files into seperated files
 func writeFunctionIR(dirName string, functionInfo []FuncInfo) {
 	PthSep := string(os.PathSeparator)
@@ -58,9 +75,6 @@ func writeWithFileWrite(name, content string) {
 	checkError(err)
 	defer fileObj.Close()
 	_, err = fileObj.WriteString(content)
-	checkError(err)
-	contents := []byte(content)
-	_, err = fileObj.Write(contents)
 	checkError(err)
 }
 
