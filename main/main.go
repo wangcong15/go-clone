@@ -18,7 +18,7 @@ func extractIRInfoAndBody() {
 
 		projectName := ProjectPath2Name(projectPath)
 		fmt.Println("project name: " + projectName)
-		files, _ := getFileWithExtension(projectPath, "ll")
+		files := getFileWithExtension(projectPath, "ll")
 		for _, filePath := range files {
 			fmt.Println("now parsing ir file: " + filePath)
 			fis, returnIdx := ParseIR(filePath, newIdx)
@@ -53,7 +53,21 @@ func analyseIRInfo() {
 	fmt.Println(funcNameCount)
 }
 
+func parseIR2FeatureVector() {
+	var featureVectors []FeatureVector
+	files := getFileWithExtension("../data/function-ir", "ll")
+	for _, filePath := range files {
+		fmt.Println("--- parsing file to feature vectors: " + filePath)
+		featureVectors = append(featureVectors, parseFuncIR(filePath))
+	}
+	writeFeatureVector("../data/function-feature.txt", featureVectors)
+}
+
 func main() {
+	// init the feature type dictionary. this operation is compulsory!
+	initFeatureTypeDict()
+
 	// extractIRInfoAndBody()
-	analyseIRInfo()
+	// analyseIRInfo()
+	parseIR2FeatureVector()
 }

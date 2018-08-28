@@ -79,7 +79,7 @@ func writeWithFileWrite(name, content string) {
 }
 
 // getFileWithExtension : get all files with specific extension below a directory "dirPath"
-func getFileWithExtension(dirPath string, extension string) ([]string, error) {
+func getFileWithExtension(dirPath string, extension string) []string {
 	var dirs []string
 	var files []string
 	dir, err := ioutil.ReadDir(dirPath)
@@ -98,13 +98,13 @@ func getFileWithExtension(dirPath string, extension string) ([]string, error) {
 	}
 
 	for _, table := range dirs {
-		temp, _ := getFileWithExtension(table, extension)
+		temp := getFileWithExtension(table, extension)
 		for _, temp1 := range temp {
 			files = append(files, temp1)
 		}
 	}
 
-	return files, nil
+	return files
 }
 
 // getSubDirs : get sub-directories of a folder (rootPath)
@@ -121,4 +121,28 @@ func getSubDirs(rootPath string) (dirs []string, err error) {
 		}
 	}
 	return dirs, nil
+}
+
+func writeFeatureVector(filePath string, featureVectors []FeatureVector) {
+	resultStr := ""
+	for _, fv := range featureVectors {
+		resultStr += fv.irFilePath + "\n"
+		resultStr += strconv.Itoa(len(fv.lsfgNodes)) + ", " + strconv.Itoa(len(fv.lsfgEdges)) + "\n"
+		for k, v := range fv.lsfgNodes {
+			resultStr += k + " ["
+			for kk, vv := range v {
+				if kk != 0 {
+					resultStr += ", " + strconv.Itoa(vv)
+				} else {
+					resultStr += strconv.Itoa(vv)
+				}
+			}
+			resultStr += "]\n"
+		}
+		for _, v := range fv.lsfgEdges {
+			resultStr += v + "\n"
+		}
+		resultStr += "\n"
+	}
+	writeWithFileWrite(filePath, resultStr)
 }
