@@ -44,7 +44,81 @@ func parseFuncIR(filePath string) FeatureVector {
 		}
 	}
 
+	storeVar2Label := make(map[string]map[string]int)
+	loadVar2Label := make(map[string]map[string]int)
+	currNodeLabel = ""
+	// store and load
+	for _, currLine := range lineArr {
+		memoryType, variableName := classify2StoreAndLoad(currLine)
+		if memoryType == 0 {
+			if _, ok := storeVar2Label[variableName]; !ok {
+				storeVar2Label[variableName] = make(map[string]int)
+			}
+			storeVar2Label[variableName][currNodeLabel] = 1
+		} else if memoryType == 1 {
+			if _, ok := loadVar2Label[variableName]; !ok {
+				loadVar2Label[variableName] = make(map[string]int)
+			}
+			loadVar2Label[variableName][currNodeLabel] = 1
+		} else if memoryType == 2 {
+			currNodeLabel = variableName
+		}
+	}
+
+	// update edges
+	tempDataEdges := make(map[string]int)
+	for lv2lKey, lv2lValue := range loadVar2Label {
+		for nodeLabel, _ := range lv2lValue {
+			for predLabel, _ := range storeVar2Label[lv2lKey] {
+				newEdge := "data-" + predLabel + "-" + nodeLabel
+				if _, ok := tempDataEdges[newEdge]; !ok {
+					tempDataEdges[newEdge] = 1
+					result.lsfgEdges = append(result.lsfgEdges, newEdge)
+				}
+			}
+		}
+	}
+
 	return result
+}
+
+// memoryType: 0-store, 1-load, 2-nodeLabel
+func classify2StoreAndLoad(currLine string) (int, string) {
+	memoryType := -1
+	var variableName string
+
+	storeRegexp := regexp.MustCompile("store .* (.*?), align")
+	storeParams := storeRegexp.FindAllStringSubmatch(currLine, -1)
+	if len(storeParams) == 1 {
+		p := storeParams[0]
+		variableName = p[1]
+		memoryType = 0
+	}
+
+	loadRegexp := regexp.MustCompile("load .* (.*?), align")
+	loadParams := loadRegexp.FindAllStringSubmatch(currLine, -1)
+	if len(loadParams) == 1 {
+		p := loadParams[0]
+		variableName = p[1]
+		memoryType = 1
+	}
+
+	entryRegexp := regexp.MustCompile("entry:")
+	entryParams := entryRegexp.FindAllStringSubmatch(currLine, -1)
+	if len(entryParams) == 1 {
+		variableName = "entry"
+		memoryType = 2
+	}
+
+	labelPredsRegexp := regexp.MustCompile("(.*?):.*?; preds = (.*)")
+	labelPredsParams := labelPredsRegexp.FindAllStringSubmatch(currLine, -1)
+	if len(labelPredsParams) == 1 {
+		p := labelPredsParams[0]
+		variableName = p[1]
+		memoryType = 2
+	}
+
+	return memoryType, variableName
 }
 
 func classify2Group(currLine string) (int, string, []string) {

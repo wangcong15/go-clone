@@ -126,7 +126,7 @@ func getSubDirs(rootPath string) (dirs []string, err error) {
 func writeFeatureVector(filePath string, featureVectors []FeatureVector) {
 	resultStr := ""
 	for _, fv := range featureVectors {
-		resultStr += fv.irFilePath + "\n"
+		resultStr += fv.irFilePath + ", "
 		resultStr += strconv.Itoa(len(fv.lsfgNodes)) + ", " + strconv.Itoa(len(fv.lsfgEdges)) + "\n"
 		for k, v := range fv.lsfgNodes {
 			resultStr += k + " ["
