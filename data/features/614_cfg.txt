@@ -1,6 +1,6 @@
-then.54 then.55 else.55
-fallthrough.54 
-else.54 fallthrough.54
 then.55 
 else.55 fallthrough.54
 entry then.54 else.54
+then.54 then.55 else.55
+fallthrough.54 
+else.54 fallthrough.54

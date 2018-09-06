@@ -1,6 +1,6 @@
-else.4 fallthrough.4
-then.5 
 else.5 fallthrough.4
 entry then.4 else.4
 then.4 then.5 else.5
 fallthrough.4 
+else.4 fallthrough.4
+then.5 

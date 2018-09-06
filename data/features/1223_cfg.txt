@@ -1,9 +1,9 @@
-label.2 
-fallthrough.5 
-else.5 fallthrough.5
-else.3 fallthrough.3
-label.0 else.4 label.2
 entry else.2 label.0
-else.4 fallthrough.5 else.5
+label.0 else.4 label.2
+else.3 fallthrough.3
+else.5 fallthrough.5
 else.2 fallthrough.3 else.3
 fallthrough.3 
+else.4 fallthrough.5 else.5
+label.2 
+fallthrough.5 

@@ -1,6 +1,6 @@
-entry then.17 else.17
-then.17 then.18 else.18
-fallthrough.17 
 else.17 fallthrough.17
 then.18 
 else.18 fallthrough.17
+entry then.17 else.17
+then.17 then.18 else.18
+fallthrough.17 

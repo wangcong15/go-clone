@@ -1,7 +1,7 @@
-entry then.582 else.582
 then.582 
 else.582 fallthrough.583 else.584
 fallthrough.583 fallthrough.585 else.586
 else.584 fallthrough.583
 fallthrough.585 
 else.586 fallthrough.585
+entry then.582 else.582

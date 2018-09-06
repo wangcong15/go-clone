@@ -1,11 +1,11 @@
+entry 
+then.66 
+else.69 
+else.67 
 else.68 
+fallthrough.70 
 else.70 
 else.66 
-else.69 
-fallthrough.70 
-then.66 
-entry 
-else.67 
-label.2 
 label.0 
+label.2 
 fallthrough.68 

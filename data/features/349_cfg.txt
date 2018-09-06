@@ -1,17 +1,17 @@
-pad.19 finish.9
-then.88 pad.18 fallthrough.88
-finally.9 finish.9
-catchpad.9 finally.9
-cont.117 finres.9 finret.9
-fallthrough.89 finally.9
-finret.9 
-entry then.87 fallthrough.87
-then.87 pad.18 fallthrough.87
 then.89 pad.18 fallthrough.89
-fallthrough.88 pad.18 cont.114
-finish.9 pad.19 cont.117
 cont.112 then.88 fallthrough.88
+catchpad.9 finally.9
+fallthrough.88 pad.18 cont.114
+then.88 pad.18 fallthrough.88
+finish.9 pad.19 cont.117
+fallthrough.87 pad.18 cont.112
+cont.117 finres.9 finret.9
+pad.18 finally.9 catchpad.9
+pad.19 finish.9
+entry then.87 fallthrough.87
+finally.9 finish.9
+then.87 pad.18 fallthrough.87
 cont.114 then.89 fallthrough.89
 finres.9 
-fallthrough.87 pad.18 cont.112
-pad.18 finally.9 catchpad.9
+finret.9 
+fallthrough.89 finally.9

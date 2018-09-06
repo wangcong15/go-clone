@@ -1,9 +1,9 @@
+then.675 fallthrough.675
+fallthrough.676 
 entry then.673 fallthrough.673
+fallthrough.673 then.674 fallthrough.674
+fallthrough.674 then.675 fallthrough.675
 then.673 fallthrough.673
 then.674 fallthrough.674
-fallthrough.674 then.675 fallthrough.675
-fallthrough.676 
-fallthrough.675 then.676 fallthrough.676
 then.676 fallthrough.676
-fallthrough.673 then.674 fallthrough.674
-then.675 fallthrough.675
+fallthrough.675 then.676 fallthrough.676

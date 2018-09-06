@@ -1,6 +1,6 @@
+entry then.12 fallthrough.12
+then.12 then.13 else.13
 fallthrough.12 
 then.13 
 else.13 fallthrough.12 command_line_arguments.ProgressView.Unsubscribe..stub.exit
 command_line_arguments.ProgressView.Unsubscribe..stub.exit fallthrough.12
-entry then.12 fallthrough.12
-then.12 then.13 else.13

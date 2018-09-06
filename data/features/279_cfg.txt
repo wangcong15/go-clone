@@ -1,7 +1,7 @@
+else.507 
+entry then.505 fallthrough.505
+then.505 then.506 else.506
 fallthrough.505 then.507 else.507
 then.506 
 else.506 fallthrough.505
 then.507 
-else.507 
-entry then.505 fallthrough.505
-then.505 then.506 else.506

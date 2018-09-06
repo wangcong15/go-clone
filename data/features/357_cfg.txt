@@ -1,17 +1,17 @@
+then.113 pad.22 fallthrough.113
+entry then.113 fallthrough.113
+pad.23 finish.11
+finres.11 
+pad.22 finally.11 catchpad.11
+fallthrough.114 pad.22 cont.128
+catchpad.11 finally.11
+then.115 pad.22 fallthrough.115
+fallthrough.113 pad.22 cont.126
 finally.11 finish.11
 fallthrough.115 finally.11
-then.113 pad.22 fallthrough.113
-finish.11 pad.23 cont.131
-cont.126 then.114 fallthrough.114
-pad.23 finish.11
-then.115 pad.22 fallthrough.115
-finres.11 
 finret.11 
-then.114 pad.22 fallthrough.114
-pad.22 finally.11 catchpad.11
-catchpad.11 finally.11
-cont.131 finres.11 finret.11
 cont.128 then.115 fallthrough.115
-entry then.113 fallthrough.113
-fallthrough.114 pad.22 cont.128
-fallthrough.113 pad.22 cont.126
+cont.126 then.114 fallthrough.114
+cont.131 finres.11 finret.11
+then.114 pad.22 fallthrough.114
+finish.11 pad.23 cont.131

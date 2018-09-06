@@ -1,20 +1,20 @@
-cont.35 finally.2 else.17
-then.16 pad.4 fallthrough.16
-else.17 pad.4 fallthrough.18
-cont.33 then.16 fallthrough.16
-pad.4 finally.2 catchpad.2
-then.15 pad.4 fallthrough.15
-fallthrough.15 pad.4 cont.33
-finret.2 
-entry then.14 fallthrough.14
-catchpad.2 finally.2
-finres.2 
-finally.2 finish.2
-cont.31 then.15 fallthrough.15
-fallthrough.18 finally.2 pad.4
-cont.40 finres.2 finret.2
-fallthrough.16 pad.4 cont.35
-then.14 pad.4 fallthrough.14
-finish.2 pad.5 cont.40
-fallthrough.14 pad.4 cont.31
 pad.5 finish.2
+entry then.14 fallthrough.14
+fallthrough.15 pad.4 cont.33
+catchpad.2 finally.2
+cont.40 finres.2 finret.2
+finret.2 
+fallthrough.16 pad.4 cont.35
+cont.31 then.15 fallthrough.15
+pad.4 finally.2 catchpad.2
+finish.2 pad.5 cont.40
+fallthrough.18 finally.2 pad.4
+finres.2 
+then.15 pad.4 fallthrough.15
+cont.35 finally.2 else.17
+else.17 pad.4 fallthrough.18
+then.14 pad.4 fallthrough.14
+cont.33 then.16 fallthrough.16
+fallthrough.14 pad.4 cont.31
+finally.2 finish.2
+then.16 pad.4 fallthrough.16

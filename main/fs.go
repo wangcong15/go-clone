@@ -183,7 +183,7 @@ func writeFeatureVector(filePath string, featureDir string, trainValidTestDir st
 		resultDfgStr := ""
 
 		for _, v := range fv.lsfgEdges {
-			edgeRegexp := regexp.MustCompile(".*?-(.*?)-(.*)")
+			edgeRegexp := regexp.MustCompile(".*?-{(.*?)}-{(.*?)}")
 			edgeParams := edgeRegexp.FindAllStringSubmatch(v, -1)
 			var edgeStart string
 			var edgeEnd string
@@ -234,10 +234,10 @@ func writeFeatureVector(filePath string, featureDir string, trainValidTestDir st
 				continue
 			}
 			if fn == fn2 {
-				ClonePairs = append(ClonePairs, idx+", "+idx2)
+				ClonePairs = append(ClonePairs, idx+","+idx2)
 				CloneSize++
 			} else {
-				NonClonePairs = append(NonClonePairs, idx+", "+idx2)
+				NonClonePairs = append(NonClonePairs, idx+","+idx2)
 				NonCloneSize++
 			}
 		}
@@ -250,27 +250,27 @@ func writeFeatureVector(filePath string, featureDir string, trainValidTestDir st
 	testSize := CloneSize * 3 / 20
 	for i := 0; i < trainSize; i++ {
 		newIdx := rand.Intn(CloneSize - 1)
-		resultStrTrain += ClonePairs[newIdx] + ", 1\n"
+		resultStrTrain += ClonePairs[newIdx] + ",1\n"
 		newNIdx := rand.Intn(NonCloneSize - 1)
-		resultStrTrain += NonClonePairs[newNIdx] + ", -1\n"
+		resultStrTrain += NonClonePairs[newNIdx] + ",-1\n"
 	}
 	fmt.Println("Writing resultStrTrain")
 	writeWithFileWrite(newTrainPath, resultStrTrain)
 
 	for i := 0; i < validSize; i++ {
 		newIdx := rand.Intn(CloneSize - 1)
-		resultStrValid += ClonePairs[newIdx] + ", 1\n"
+		resultStrValid += ClonePairs[newIdx] + ",1\n"
 		newNIdx := rand.Intn(NonCloneSize - 1)
-		resultStrValid += NonClonePairs[newNIdx] + ", -1\n"
+		resultStrValid += NonClonePairs[newNIdx] + ",-1\n"
 	}
 	fmt.Println("Writing resultStrValid")
 	writeWithFileWrite(newValidPath, resultStrValid)
 
 	for i := 0; i < testSize; i++ {
 		newIdx := rand.Intn(CloneSize - 1)
-		resultStrTest += ClonePairs[newIdx] + ", 1\n"
+		resultStrTest += ClonePairs[newIdx] + ",1\n"
 		newNIdx := rand.Intn(NonCloneSize - 1)
-		resultStrTest += NonClonePairs[newNIdx] + ", -1\n"
+		resultStrTest += NonClonePairs[newNIdx] + ",-1\n"
 	}
 	fmt.Println("Writing resultStrTest")
 	writeWithFileWrite(newTestPath, resultStrTest)

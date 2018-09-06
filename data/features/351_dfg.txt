@@ -1,9 +1,9 @@
-entry 
+fallthrough.104 
+else.105 
 then.102 
 else.107 
-else.105 
-else.106 
-else.108 
-fallthrough.104 
-else.110 
 else.102 
+else.106 
+entry 
+else.108 
+else.110 

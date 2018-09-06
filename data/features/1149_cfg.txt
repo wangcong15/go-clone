@@ -1,13 +1,13 @@
-else.40 fallthrough.40
-else.33 fallthrough.34 else.35
-entry then.31 else.31
+fallthrough.34 then.36 else.36
+else.36 fallthrough.40 else.40
 else.31 then.32 else.32
-then.32 
-else.35 fallthrough.34
-fallthrough.40 
-then.31 
 else.32 then.33 else.33
 then.33 
+else.33 fallthrough.34 else.35
+fallthrough.40 
+else.40 fallthrough.40
 then.36 
-else.36 fallthrough.40 else.40
-fallthrough.34 then.36 else.36
+entry then.31 else.31
+then.31 
+else.35 fallthrough.34
+then.32 

@@ -1,14 +1,14 @@
+pad.10 finally.5 catchpad.5
+cont.65 finally.5
+catchpad.5 finally.5
+finres.5 
+then.130 pad.10 fallthrough.130
 pad.11 finish.5
-fallthrough.131 pad.10 fallthrough.132
-finish.5 pad.11 cont.67
-entry then.130 fallthrough.130
-finally.5 finish.5
 fallthrough.132 pad.10 cont.65
 finret.5 
-catchpad.5 finally.5
-pad.10 finally.5 catchpad.5
+finally.5 finish.5
 fallthrough.130 pad.10 fallthrough.131
-then.130 pad.10 fallthrough.130
-cont.65 finally.5
-finres.5 
+entry then.130 fallthrough.130
+fallthrough.131 pad.10 fallthrough.132
+finish.5 pad.11 cont.67
 cont.67 finres.5 finret.5

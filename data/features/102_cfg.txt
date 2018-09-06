@@ -1,5 +1,5 @@
-else.20 fallthrough.19
-else.21 fallthrough.19
 entry then.19 fallthrough.19
 then.19 else.20 else.21
 fallthrough.19 
+else.20 fallthrough.19
+else.21 fallthrough.19

@@ -1,28 +1,28 @@
-entry then.0 else.1
-else.1 then.2 else.2
-then.10 fallthrough.10
-else.5 else.6 else.7
-else.11 fallthrough.10
-fallthrough.14 else.16 else.17
-fallthrough.16 
-then.15 
 else.17 fallthrough.16
-else.7 else.9
-then.14 then.15 else.15
-then.0 
-else.9 then.10 else.10
-else.13 then.14 else.14
-then.11 
+then.13 
+entry then.0 else.1
 then.2 fallthrough.2
-else.3 fallthrough.2
-then.5 
+then.10 fallthrough.10
 else.10 then.11 else.11
+then.0 
+fallthrough.10 then.13 else.13
+then.11 
+else.9 then.10 else.10
+else.14 fallthrough.14
+else.7 else.9
+else.2 then.3 else.3
+then.5 
 fallthrough.2 then.5 else.5
 else.16 fallthrough.16
-then.13 
-fallthrough.10 then.13 else.13
-else.15 fallthrough.14
-else.2 then.3 else.3
-else.14 fallthrough.14
+else.5 else.6 else.7
+else.3 fallthrough.2
+else.13 then.14 else.14
+fallthrough.14 else.16 else.17
+else.1 then.2 else.2
 then.3 
 else.6 else.9
+else.11 fallthrough.10
+then.15 
+fallthrough.16 
+else.15 fallthrough.14
+then.14 then.15 else.15

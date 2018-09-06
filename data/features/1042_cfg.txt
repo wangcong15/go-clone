@@ -1,21 +1,21 @@
 fallthrough.193 then.194 fallthrough.194
-pad.17 finish.8
-fallthrough.191.critedge fallthrough.191
-finally.8 finish.8
-then.190 pad.16 then.191
 cont.115 finres.8 finret.8
-catchpad.8 finally.8
-then.192.fallthrough.193_crit_edge fallthrough.193
-then.192 pad.16 then.192.fallthrough.193_crit_edge
-finish.8 pad.17 cont.115
 cont.105 pad.16 cont.106
-pad.16 finally.8 catchpad.8
 then.191 pad.16 fallthrough.191
-finres.8 
-entry pad.16 cont.105
-then.194 pad.16 fallthrough.194
+then.192.fallthrough.193_crit_edge fallthrough.193
 fallthrough.194 finally.8 pad.16
-fallthrough.191 then.192 fallthrough.193
+pad.17 finish.8
 finret.8 
-cont.106 pad.16 cont.107
+entry pad.16 cont.105
+pad.16 finally.8 catchpad.8
+catchpad.8 finally.8
+fallthrough.191 then.192 fallthrough.193
+then.194 pad.16 fallthrough.194
+finish.8 pad.17 cont.115
+finres.8 
 cont.107 then.190 fallthrough.191.critedge
+then.190 pad.16 then.191
+finally.8 finish.8
+cont.106 pad.16 cont.107
+fallthrough.191.critedge fallthrough.191
+then.192 pad.16 then.192.fallthrough.193_crit_edge

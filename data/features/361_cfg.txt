@@ -1,17 +1,17 @@
-cont.138 finres.12 finret.12
+cont.135 then.126 fallthrough.126
+finres.12 
+then.124 pad.24 fallthrough.124
 then.125 pad.24 fallthrough.125
-finish.12 pad.25 cont.138
+fallthrough.125 pad.24 cont.135
 fallthrough.124 pad.24 cont.133
 fallthrough.126 finally.12
-catchpad.12 finally.12
-then.124 pad.24 fallthrough.124
-entry then.124 fallthrough.124
-cont.133 then.125 fallthrough.125
-pad.25 finish.12
-cont.135 then.126 fallthrough.126
-then.126 pad.24 fallthrough.126
 pad.24 finally.12 catchpad.12
-finres.12 
-fallthrough.125 pad.24 cont.135
-finret.12 
+cont.138 finres.12 finret.12
+cont.133 then.125 fallthrough.125
 finally.12 finish.12
+pad.25 finish.12
+finish.12 pad.25 cont.138
+finret.12 
+then.126 pad.24 fallthrough.126
+catchpad.12 finally.12
+entry then.124 fallthrough.124

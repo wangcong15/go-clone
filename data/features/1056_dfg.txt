@@ -1,16 +1,15 @@
-else.275 
-fallthrough.278 
 else.281 
-entry 
-else.277 
 then.272 
-; <label> 
-else.272 
-then.276 
-then.275 
-else.273 
-else.276 
-then.281 
-fallthrough.275 
 else.273.lr.ph 
+else.273 
+then.276 
+else.275 
+else.277 
+then.281 
+else.276 
+fallthrough.278 
+then.275 
+fallthrough.275 
 else.281.thread 
+else.272 
+entry 

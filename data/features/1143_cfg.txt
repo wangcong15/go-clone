@@ -1,13 +1,13 @@
-finres.0 
-then.1 pad.0 fallthrough.1
-finish.0 pad.1 cont.4
-finret.0 
-cont.0 pad.0 cont.1
-finally.0 finish.0
-pad.0 finally.0 catchpad.0
-cont.4 finres.0 finret.0
-catchpad.0 finally.0
-pad.1 finish.0
-entry pad.0 cont.0
-cont.1 then.1 fallthrough.1
 fallthrough.1 finally.0
+finally.0 finish.0
+then.1 pad.0 fallthrough.1
+finret.0 
+entry pad.0 cont.0
+pad.0 finally.0 catchpad.0
+cont.0 pad.0 cont.1
+pad.1 finish.0
+finish.0 pad.1 cont.4
+finres.0 
+catchpad.0 finally.0
+cont.4 finres.0 finret.0
+cont.1 then.1 fallthrough.1

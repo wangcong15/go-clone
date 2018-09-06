@@ -1,4 +1,3 @@
-fallthrough.42 then.44 else.44
 then.43 fallthrough.42
 then.44 
 else.44 else.41 else.45
@@ -6,3 +5,4 @@ else.45
 entry else.41 else.45
 else.41 then.42 fallthrough.42
 then.42 then.43 else.44
+fallthrough.42 then.44 else.44

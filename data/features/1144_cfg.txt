@@ -1,10 +1,10 @@
-else.20 else.21 else.22
 then.26 
-entry then.20 else.20
 then.20 
-else.28 
-else.25 then.26 else.28
-fallthrough.21 then.23 else.25
-else.21 fallthrough.21
+else.20 else.21 else.22
 else.22 fallthrough.21
+else.21 fallthrough.21
+else.25 then.26 else.28
+entry then.20 else.20
+fallthrough.21 then.23 else.25
 then.23 
+else.28 

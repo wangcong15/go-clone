@@ -1,5 +1,5 @@
-fallthrough.2 
-else.3 fallthrough.2
 entry then.1 else.1
 then.1 
 else.1 fallthrough.2 else.3
+fallthrough.2 
+else.3 fallthrough.2

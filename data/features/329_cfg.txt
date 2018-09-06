@@ -1,29 +1,29 @@
+cont.54 then.30 else.30
+finret.3 
 entry then.19 fallthrough.19
-pad.6 finally.3 catchpad.3
-fallthrough.31 fallthrough.32
-then.31 pad.6 fallthrough.31
-cont.44 then.21 fallthrough.21
-then.30 then.31 fallthrough.31
-fallthrough.20 pad.6 cont.44
-cont.47 else.24 else.25
-fallthrough.19 pad.6 cont.42
 finally.3 finish.3
+cont.47 else.24 else.25
+pad.7 finish.3
+fallthrough.19 pad.6 cont.42
+cont.59 finres.3 finret.3
+fallthrough.23 pad.6 cont.47
+finres.3 
+else.24 pad.6 else.24.fallthrough.29_crit_edge
+then.30 then.31 fallthrough.31
+pad.6 finally.3 catchpad.3
+fallthrough.21 fallthrough.23 fallthrough.29
+fallthrough.20 pad.6 cont.44
+then.21 pad.6 fallthrough.21
+else.30 pad.6 fallthrough.32
+cont.44 then.21 fallthrough.21
+fallthrough.29 pad.6 cont.54
+fallthrough.32 finally.3
+then.31 pad.6 fallthrough.31
 cont.42 then.20 fallthrough.20
 then.20 pad.6 fallthrough.20
-else.24 pad.6 else.24.fallthrough.29_crit_edge
-else.25 fallthrough.29
-fallthrough.29 pad.6 cont.54
-else.24.fallthrough.29_crit_edge fallthrough.29
-then.19 pad.6 fallthrough.19
-then.21 pad.6 fallthrough.21
-finish.3 pad.7 cont.59
 catchpad.3 finally.3
-cont.54 then.30 else.30
-fallthrough.21 fallthrough.23 fallthrough.29
-fallthrough.23 pad.6 cont.47
-fallthrough.32 finally.3
-finret.3 
-pad.7 finish.3
-cont.59 finres.3 finret.3
-else.30 pad.6 fallthrough.32
-finres.3 
+then.19 pad.6 fallthrough.19
+else.24.fallthrough.29_crit_edge fallthrough.29
+else.25 fallthrough.29
+fallthrough.31 fallthrough.32
+finish.3 pad.7 cont.59

@@ -1,8 +1,8 @@
+fallthrough.515 
+then.516 
+else.516 
 then.517 
 fallthrough.517 
 then.518 
 entry 
 then.515 
-fallthrough.515 
-then.516 
-else.516 

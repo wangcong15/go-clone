@@ -1,13 +1,13 @@
+finres.10 
+entry pad.20 cont.125
+cont.125 pad.20 cont.126
 finret.10 
+finally.10 finish.10
 then.196 pad.20 fallthrough.196
-pad.21 finish.10
+cont.129 finres.10 finret.10
+pad.20 finally.10 catchpad.10
 cont.126 then.196 fallthrough.196
 fallthrough.196 finally.10
 catchpad.10 finally.10
-cont.129 finres.10 finret.10
-finres.10 
-entry pad.20 cont.125
-pad.20 finally.10 catchpad.10
-finally.10 finish.10
-cont.125 pad.20 cont.126
+pad.21 finish.10
 finish.10 pad.21 cont.129

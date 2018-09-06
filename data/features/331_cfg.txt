@@ -1,36 +1,36 @@
-cont.1 then.0 fallthrough.0
-cont.8 pad.0 cont.9
-finres.0 
-cont.0 pad.0 cont.1
-then.2 pad.0 fallthrough.2
-cont.13 else.7 else.8
-finally.0 finish.0
-pad.1 finish.0
-cont.17 finally.0
-fallthrough.4 then.5 fallthrough.5
-fallthrough.1 pad.0 cont.5
-then.1 pad.0 fallthrough.1
-then.5 then.6 fallthrough.6
-then.9 pad.0 fallthrough.9
-else.3 pad.0 cont.8
-fallthrough.5 then.9 fallthrough.9
-cont.3 then.1 fallthrough.1
-then.0 pad.0 fallthrough.0
-entry pad.0 cont.0
-cont.7 finally.0 else.3
-fallthrough.0 pad.0 cont.3
 finret.0 
-pad.0 finally.0 catchpad.0
-then.6 pad.0 fallthrough.6
+then.2 pad.0 fallthrough.2
+cont.7 finally.0 else.3
+then.0 pad.0 fallthrough.0
+pad.1 finish.0
 fallthrough.6 pad.0 cont.13
-then.4 pad.0 fallthrough.4
-else.7 pad.0 fallthrough.5
+fallthrough.4 then.5 fallthrough.5
+cont.13 else.7 else.8
 cont.10 then.4 fallthrough.4
-cont.19 finres.0 finret.0
-finish.0 pad.1 cont.19
-cont.9 pad.0 cont.10
-catchpad.0 finally.0
-fallthrough.9 pad.0 cont.17
-cont.5 then.2 fallthrough.2
+then.4 pad.0 fallthrough.4
+cont.0 pad.0 cont.1
 fallthrough.2 pad.0 cont.7
+fallthrough.9 pad.0 cont.17
+catchpad.0 finally.0
+then.5 then.6 fallthrough.6
+then.6 pad.0 fallthrough.6
+cont.3 then.1 fallthrough.1
+else.3 pad.0 cont.8
+cont.5 then.2 fallthrough.2
+pad.0 finally.0 catchpad.0
+else.7 pad.0 fallthrough.5
+cont.8 pad.0 cont.9
+finish.0 pad.1 cont.19
+cont.17 finally.0
+then.9 pad.0 fallthrough.9
+finally.0 finish.0
+fallthrough.1 pad.0 cont.5
+fallthrough.0 pad.0 cont.3
 else.8 fallthrough.5
+cont.19 finres.0 finret.0
+fallthrough.5 then.9 fallthrough.9
+then.1 pad.0 fallthrough.1
+cont.1 then.0 fallthrough.0
+cont.9 pad.0 cont.10
+entry pad.0 cont.0
+finres.0 

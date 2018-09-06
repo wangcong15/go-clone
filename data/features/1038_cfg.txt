@@ -1,14 +1,14 @@
-finally.4 finish.4
-finish.4 pad.9 cont.87
-then.184 pad.8 fallthrough.184
-cont.85 finally.4
 finret.4 
-cont.82 pad.8 cont.83
-catchpad.4 finally.4
+finish.4 pad.9 cont.87
 entry pad.8 cont.82
-finres.4 
-fallthrough.184 pad.8 cont.85
-pad.9 finish.4
+then.184 pad.8 fallthrough.184
+finally.4 finish.4
 pad.8 finally.4 catchpad.4
-cont.87 finres.4 finret.4
+cont.85 finally.4
+catchpad.4 finally.4
+cont.82 pad.8 cont.83
+pad.9 finish.4
 cont.83 then.184 fallthrough.184
+fallthrough.184 pad.8 cont.85
+cont.87 finres.4 finret.4
+finres.4 

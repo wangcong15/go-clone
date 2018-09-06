@@ -1,6 +1,6 @@
-then.69 then.70 else.70
-fallthrough.69 
-else.69 fallthrough.69
 then.70 
 else.70 fallthrough.69
 entry then.69 else.69
+then.69 then.70 else.70
+fallthrough.69 
+else.69 fallthrough.69

@@ -1,15 +1,15 @@
-entry then.33 else.33
-else.34 else.35.lr.ph else.41
-else.35.lr.ph else.35
-then.39 
-then.37 
-then.36 fallthrough.36
 fallthrough.36 then.39 else.39
-else.36 then.37 else.37
-else.39 else.35 else.41
-then.33 
-then.34 
-else.33 then.34 else.34
-else.41 
+entry then.33 else.33
 else.35 then.36 else.36
 else.37 fallthrough.36
+else.39 else.35 else.41
+then.34 
+else.36 then.37 else.37
+else.33 then.34 else.34
+else.35.lr.ph else.35
+then.39 
+then.33 
+then.36 fallthrough.36
+else.41 
+else.34 else.35.lr.ph else.41
+then.37 

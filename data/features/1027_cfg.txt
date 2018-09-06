@@ -1,11 +1,11 @@
+fallthrough.89 then.90 else.90
 then.90 
-then.91 
-then.95 fallthrough.95
 else.90 then.91 else.91
 else.91 fallthrough.92 then.95
-fallthrough.92 then.95 else.95
-entry fallthrough.89 else.89
-fallthrough.89 then.90 else.90
-fallthrough.95 
-else.95 fallthrough.95
 else.89 fallthrough.89
+then.95 fallthrough.95
+fallthrough.95 
+then.91 
+fallthrough.92 then.95 else.95
+else.95 fallthrough.95
+entry fallthrough.89 else.89

@@ -31,12 +31,15 @@ func parseFuncIR(filePath string) FeatureVector {
 	// handler each line
 	currNodeLabel := ""
 	for _, currLine := range lineArr {
+		if strings.HasPrefix(currLine, ";") {
+			continue
+		}
 		currIdx, nodeLabel, predLabels := classify2Group(currLine)
 		if nodeLabel != "" {
 			currNodeLabel = nodeLabel
 			result.lsfgNodes[nodeLabel] = []int{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 			for _, predLabel := range predLabels {
-				newEdge := "control-" + predLabel + "-" + nodeLabel
+				newEdge := "control-{" + predLabel + "}-{" + nodeLabel + "}"
 				result.lsfgEdges = append(result.lsfgEdges, newEdge)
 			}
 		} else if currIdx >= 0 {
@@ -49,6 +52,9 @@ func parseFuncIR(filePath string) FeatureVector {
 	currNodeLabel = ""
 	// store and load
 	for _, currLine := range lineArr {
+		if strings.HasPrefix(currLine, ";") {
+			continue
+		}
 		memoryType, variableName := classify2StoreAndLoad(currLine)
 		if memoryType == 0 {
 			if _, ok := storeVar2Label[variableName]; !ok {
@@ -70,7 +76,7 @@ func parseFuncIR(filePath string) FeatureVector {
 	for lv2lKey, lv2lValue := range loadVar2Label {
 		for nodeLabel, _ := range lv2lValue {
 			for predLabel, _ := range storeVar2Label[lv2lKey] {
-				newEdge := "data-" + predLabel + "-" + nodeLabel
+				newEdge := "data-{" + predLabel + "}-{" + nodeLabel + "}"
 				if _, ok := tempDataEdges[newEdge]; !ok {
 					tempDataEdges[newEdge] = 1
 					result.lsfgEdges = append(result.lsfgEdges, newEdge)

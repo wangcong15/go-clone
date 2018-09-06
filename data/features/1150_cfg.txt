@@ -1,33 +1,33 @@
-else.48 fallthrough.47
-then.54 
-else.53 label.0
-else.50 fallthrough.49
-else.45 fallthrough.45
-else.42 fallthrough.41
-then.51 then.52 else.52
-else.51 fallthrough.51
-label.0 then.54 else.54
-else.46 fallthrough.45
+case.2 fallthrough.55 else.55
 then.50 
-else.54 case.2 case.3
-fallthrough.56 label.0.backedge
-case.3 fallthrough.56 else.56
-fallthrough.45 fallthrough.47 else.48
-then.49 then.50 else.50
-else.41 fallthrough.41
+fallthrough.55 label.0.backedge
+else.49 fallthrough.49
+else.56 fallthrough.56
 fallthrough.51 then.53 else.53
-fallthrough.49 then.51 else.51
+else.44 fallthrough.43
+else.50 fallthrough.49
+fallthrough.45 fallthrough.47 else.48
 then.52 
-entry else.41 else.42
-else.55 fallthrough.55
+fallthrough.47 then.49 else.49
+then.51 then.52 else.52
+else.41 fallthrough.41
+else.46 fallthrough.45
+then.54 
+else.42 fallthrough.41
+fallthrough.49 then.51 else.51
 then.53 
 label.0.backedge label.0
-fallthrough.47 then.49 else.49
-else.52 fallthrough.51
-fallthrough.55 label.0.backedge
-else.56 fallthrough.56
-case.2 fallthrough.55 else.55
-else.44 fallthrough.43
-else.49 fallthrough.49
-fallthrough.41 fallthrough.43 else.44
+label.0 then.54 else.54
+else.48 fallthrough.47
+else.53 label.0
+case.3 fallthrough.56 else.56
+fallthrough.56 label.0.backedge
+entry else.41 else.42
 fallthrough.43 else.45 else.46
+else.54 case.2 case.3
+fallthrough.41 fallthrough.43 else.44
+else.55 fallthrough.55
+else.51 fallthrough.51
+else.52 fallthrough.51
+else.45 fallthrough.45
+then.49 then.50 else.50

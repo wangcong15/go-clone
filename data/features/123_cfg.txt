@@ -1,128 +1,128 @@
-else.691 then.693 else.693
-else.678 then.679 else.679
-then.624 
-then.655 
-case.20 then.634 else.634
-else.630 then.631 else.631
-else.622 then.624 else.624
-then.616 
-else.693 then.694 else.694
-then.694 
-else.702 then.704 else.704
-command_line_arguments.getPaletteIndex.exit then.709 else.709
-then.691 
-then.634 
-else.644 then.646 else.646
-else.699 then.701 else.701
-else.709 then.710 else.710
-else.694 then.617
-then.685 
-then.630 
-else.647 then.649 else.649
-else.676 then.678 else.678
-then.676 
-case.25 else.381.i command_line_arguments.getPaletteIndex.exit
-else.688 then.690 else.690
-then.666 
-then.660 
-case.26 then.617
-else.695 then.697 else.697
-case.22 then.672 else.672
-else.687 then.688 else.688
-then.687 
-then.702 
-then.709 
-then.622 
-then.631 
-then.638 
-else.624 then.625 else.625
-then.650 
-then.681 
-else.652 then.653 else.653
-else.660 then.662 else.662
-then.625 
-then.665 
-then.684 
-else.684 then.685 else.685
-else.679 then.681 else.681
-then.697 
-else.701 then.702 else.702
-then.644 
-then.659 
-then.710 
-then.617 
-then.621 
-else.382.i else.381.i command_line_arguments.getPaletteIndex.exit
-then.656 
-else.635 then.637 else.637
-else.690 then.691 else.691
-then.668 
-else.618 then.617 case.20 case.21 case.22 case.25 case.26 else.619 else.695 else.699
 else.663 then.665 else.665
-else.643 then.644 else.644
-then.678 
-else.621 then.622 else.622
-else.673 then.675 else.675
-else.682 then.684 else.684
-then.693 
-then.682 
-then.635 
-then.679 
-else.616 then.617 else.618
-then.688 
-then.672 
-else.681 then.682 else.682
-then.698 
-else.662 then.663 else.663
-then.690 
-else.625 then.627 else.627
-then.663 
-else.666 then.668 else.668
-then.652 
-then.643 
-entry then.616 else.616
-else.381.i else.382.i command_line_arguments.getPaletteIndex.exit
-else.638 then.640 else.640
-then.637 
-else.634 then.635 else.635
-else.656 then.617
-then.653 
-else.650 then.652 else.652
-else.669 then.617
-else.619 then.621 else.621
-else.710 then.617
-then.640 
-then.669 
-else.659 then.660 else.660
-else.637 then.638 else.638
-else.698 then.617
-else.685 then.687 else.687
-else.704 then.705 else.705
-then.627 
-else.653 then.655 else.655
-then.673 
+then.624 
+else.624 then.625 else.625
+case.20 then.634 else.634
 else.649 then.650 else.650
-then.628 
-then.701 
-else.675 then.676 else.676
-else.640 then.641 else.641
-else.705 then.617
-case.21 then.659 else.659
-else.631 then.617
-else.628 then.630 else.630
-then.641 
-then.705 
-else.655 then.656 else.656
-else.697 then.698 else.698
-else.665 then.666 else.666
-then.647 
-else.641 then.643 else.643
-then.662 
-then.704 
-else.672 then.673 else.673
-then.649 
-then.675 
-else.646 then.647 else.647
-then.646 
-else.627 then.628 else.628
+else.635 then.637 else.637
+else.656 then.617
+else.679 then.681 else.681
+then.630 
+else.704 then.705 else.705
+else.685 then.687 else.687
+then.665 
+command_line_arguments.getPaletteIndex.exit then.709 else.709
 else.668 then.669 else.669
+else.697 then.698 else.698
+then.634 
+else.698 then.617
+then.616 
+then.688 
+else.705 then.617
+then.644 
+else.691 then.693 else.693
+else.659 then.660 else.660
+else.662 then.663 else.663
+else.616 then.617 else.618
+else.631 then.617
+else.643 then.644 else.644
+then.710 
+then.621 
+then.640 
+then.682 
+then.679 
+then.673 
+then.669 
+then.704 
+then.697 
+else.693 then.694 else.694
+then.668 
+then.681 
+then.638 
+else.381.i else.382.i command_line_arguments.getPaletteIndex.exit
+else.660 then.662 else.662
+then.628 
+then.641 
+then.635 
+then.666 
+else.382.i else.381.i command_line_arguments.getPaletteIndex.exit
+case.25 else.381.i command_line_arguments.getPaletteIndex.exit
+else.673 then.675 else.675
+else.701 then.702 else.702
+else.641 then.643 else.643
+else.672 then.673 else.673
+then.702 
+then.650 
+else.640 then.641 else.641
+then.637 
+else.628 then.630 else.630
+then.622 
+then.678 
+else.618 then.617 case.20 case.21 case.22 case.25 case.26 else.619 else.695 else.699
+then.617 
+case.21 then.659 else.659
+then.691 
+else.619 then.621 else.621
+then.687 
+then.698 
+then.684 
+then.693 
+else.630 then.631 else.631
+then.675 
+else.709 then.710 else.710
+else.655 then.656 else.656
+then.647 
+then.631 
+else.637 then.638 else.638
+then.660 
+else.638 then.640 else.640
+else.652 then.653 else.653
+else.694 then.617
+then.705 
+else.682 then.684 else.684
+else.681 then.682 else.682
+case.22 then.672 else.672
+then.653 
+else.687 then.688 else.688
+else.647 then.649 else.649
+else.646 then.647 else.647
+else.702 then.704 else.704
+then.649 
+then.646 
+case.26 then.617
+else.688 then.690 else.690
+else.676 then.678 else.678
+entry then.616 else.616
+else.666 then.668 else.668
+else.665 then.666 else.666
+else.644 then.646 else.646
+else.653 then.655 else.655
+then.709 
+then.690 
+then.676 
+then.694 
+then.685 
+else.710 then.617
+then.672 
+else.675 then.676 else.676
+then.701 
+else.695 then.697 else.697
+then.652 
+then.627 
+else.627 then.628 else.628
+then.663 
+else.690 then.691 else.691
+else.622 then.624 else.624
+then.625 
+else.678 then.679 else.679
+else.699 then.701 else.701
+then.659 
+else.621 then.622 else.622
+else.625 then.627 else.627
+then.655 
+else.669 then.617
+then.643 
+then.656 
+else.650 then.652 else.652
+else.634 then.635 else.635
+else.684 then.685 else.685
+then.662 

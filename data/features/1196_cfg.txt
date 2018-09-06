@@ -1,34 +1,34 @@
-pad.1 finish.0
-then.59 then.60 fallthrough.60
-then.63 pad.0 fallthrough.63
-cont.12 then.63 fallthrough.63
-then.61 pad.0 fallthrough.61
-then.62 pad.0 fallthrough.62
-cont.15 finally.0 pad.0
-cont.5 then.58 fallthrough.58
-cont.10 pad.0 cont.11
-then.56 pad.0 fallthrough.56
-fallthrough.58 finally.0 then.59
-finally.0 finish.0
-cont.3 then.57 fallthrough.57
-finret.0 
 fallthrough.63 pad.0 cont.14
-fallthrough.61 then.62 fallthrough.62
-finres.0 
-fallthrough.62 pad.0 cont.10
+pad.1 finish.0
+cont.3 then.57 fallthrough.57
 cont.1 then.56 fallthrough.56
-then.60 pad.0 fallthrough.60
 finish.0 pad.1 cont.18
-cont.0 pad.0 cont.1
-entry pad.0 cont.0
-then.57 pad.0 fallthrough.57
-pad.0 finally.0 catchpad.0
+fallthrough.58 finally.0 then.59
 fallthrough.60 fallthrough.61.thread then.61
-fallthrough.61.thread fallthrough.62
-cont.11 pad.0 cont.12
-then.58 pad.0 fallthrough.58
-fallthrough.57 pad.0 cont.5
-catchpad.0 finally.0
+cont.12 then.63 fallthrough.63
+then.63 pad.0 fallthrough.63
 cont.14 pad.0 cont.15
-cont.18 finres.0 finret.0
+then.56 pad.0 fallthrough.56
+entry pad.0 cont.0
+fallthrough.57 pad.0 cont.5
+finret.0 
+cont.0 pad.0 cont.1
+then.61 pad.0 fallthrough.61
+then.59 then.60 fallthrough.60
 fallthrough.56 pad.0 cont.3
+fallthrough.62 pad.0 cont.10
+fallthrough.61.thread fallthrough.62
+then.58 pad.0 fallthrough.58
+pad.0 finally.0 catchpad.0
+cont.10 pad.0 cont.11
+cont.18 finres.0 finret.0
+finally.0 finish.0
+then.62 pad.0 fallthrough.62
+fallthrough.61 then.62 fallthrough.62
+then.57 pad.0 fallthrough.57
+then.60 pad.0 fallthrough.60
+cont.11 pad.0 cont.12
+catchpad.0 finally.0
+cont.5 then.58 fallthrough.58
+cont.15 finally.0 pad.0
+finres.0 

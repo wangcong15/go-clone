@@ -1,4 +1,3 @@
-fallthrough.282.thread then.284 else.284
 then.284 fallthrough.282 fallthrough.282.thread
 else.284 
 entry then.281 else.281
@@ -6,3 +5,4 @@ then.281
 else.281 then.284.lr.ph else.284
 then.284.lr.ph then.284
 fallthrough.282 fallthrough.282.thread
+fallthrough.282.thread then.284 else.284

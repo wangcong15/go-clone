@@ -1,6 +1,6 @@
-fallthrough.305 
-else.305 
-else.306 
 entry 
 then.304 
 else.304 
+fallthrough.305 
+else.305 
+else.306 

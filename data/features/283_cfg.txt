@@ -1,26 +1,26 @@
 cont.336 finally.5
-finret.5 
 cont.341 finres.5 finret.5
-then.511 pad.10 cont.330
 fallthrough.512 pad.10 fallthrough.511
-cont.334 then.513 else.513
-cont.339 finally.5
-finally.5 finish.5
+pad.11 finish.5
+then.512 pad.10 fallthrough.512
+finret.5 
+fallthrough.511 pad.10 cont.334
+entry pad.10 cont.329
 finres.5 
 cont.329 then.511 fallthrough.511
-cont.331 then.512 fallthrough.512
 catchpad.5 finally.5
-fallthrough.511 pad.10 cont.334
-then.512 pad.10 fallthrough.512
-then.513 pad.10 cont.335
-else.514 pad.10 cont.337
-pad.10 finally.5 catchpad.5
-entry pad.10 cont.329
-then.514 pad.10 cont.336
-finish.5 pad.11 cont.341
-cont.338 finally.5
-cont.330 pad.10 cont.331
-else.513 pad.10 cont.339
+then.511 pad.10 cont.330
 cont.335 then.514 else.514
-pad.11 finish.5
 cont.337 pad.10 cont.338
+cont.338 finally.5
+finish.5 pad.11 cont.341
+cont.339 finally.5
+else.514 pad.10 cont.337
+cont.330 pad.10 cont.331
+cont.334 then.513 else.513
+then.514 pad.10 cont.336
+pad.10 finally.5 catchpad.5
+cont.331 then.512 fallthrough.512
+else.513 pad.10 cont.339
+finally.5 finish.5
+then.513 pad.10 cont.335

@@ -1,30 +1,30 @@
-pad.7 finish.3
-else.96 pad.6 label.1
-entry pad.6 cont.98
-cont.106 then.95 fallthrough.95
-finret.3 
-fallthrough.95 pad.6 cont.108
-cont.110 finally.3 else.97
-finish.3 pad.7 cont.114
-cont.108 else.96 label.0
-then.98 pad.6 cont.112
-else.97 pad.6 label.1
-label.1 finally.3 then.98
-else.94 pad.6 cont.106
-cont.103 pad.6 cont.104
-cont.98 pad.6 cont.99
-cont.105 finally.3
-cont.112 finally.3
-label.0 pad.6 cont.110
-cont.101 pad.6 cont.102
-catchpad.3 finally.3
-cont.100 pad.6 cont.101
-then.94 pad.6 cont.105
-pad.6 finally.3 catchpad.3
-cont.104 then.94 else.94
-then.95 pad.6 fallthrough.95
-cont.99 pad.6 cont.100
 finres.3 
+cont.104 then.94 else.94
+cont.108 else.96 label.0
+finish.3 pad.7 cont.114
+cont.110 finally.3 else.97
+cont.112 finally.3
+cont.114 finres.3 finret.3
+else.94 pad.6 cont.106
+catchpad.3 finally.3
+then.94 pad.6 cont.105
+cont.99 pad.6 cont.100
+cont.101 pad.6 cont.102
+pad.7 finish.3
 cont.102 pad.6 cont.103
 finally.3 finish.3
-cont.114 finres.3 finret.3
+finret.3 
+else.96 pad.6 label.1
+entry pad.6 cont.98
+cont.105 finally.3
+pad.6 finally.3 catchpad.3
+label.0 pad.6 cont.110
+cont.106 then.95 fallthrough.95
+else.97 pad.6 label.1
+label.1 finally.3 then.98
+then.98 pad.6 cont.112
+fallthrough.95 pad.6 cont.108
+then.95 pad.6 fallthrough.95
+cont.100 pad.6 cont.101
+cont.103 pad.6 cont.104
+cont.98 pad.6 cont.99
