@@ -1,0 +1,19 @@
+pad.7 finish.3
+finish.3 pad.7 cont.34
+fallthrough.20 pad.6 cont.28
+then.22 pad.6 fallthrough.22
+pad.6 finally.3 catchpad.3
+then.21 pad.6 fallthrough.21
+cont.26 then.20 fallthrough.20
+cont.28 then.21 fallthrough.21
+catchpad.3 finally.3
+fallthrough.21 pad.6 cont.30
+finres.3 
+entry pad.6 cont.25
+cont.30 then.22 fallthrough.22
+fallthrough.22 finally.3 pad.6
+finret.3 
+then.20 pad.6 fallthrough.20
+cont.25 pad.6 cont.26
+cont.34 finres.3 finret.3
+finally.3 finish.3

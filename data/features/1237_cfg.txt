@@ -1,0 +1,5 @@
+then.1 fallthrough.1 then.2
+fallthrough.1 
+else.1 fallthrough.1
+then.2 fallthrough.1
+entry then.1 else.1

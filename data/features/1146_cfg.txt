@@ -1,0 +1,13 @@
+then.4 then.5 else.5
+then.6 
+main.CertificateManager.Unlock..stub.exit 
+entry then.2 else.3
+then.2 
+else.9 main.CertificateManager.Unlock..stub.exit
+fallthrough.4 then.6 main.CertificateManager.Lock..stub.exit
+main.CertificateManager.Lock..stub.exit else.8 else.9
+else.3 then.4 else.4
+else.4 fallthrough.4
+then.5 
+else.5 fallthrough.4
+else.8 main.CertificateManager.Unlock..stub.exit

@@ -1,0 +1,11 @@
+catchpad.1 finally.1
+entry pad.2 cont.11
+cont.11 pad.2 cont.12
+pad.3 finish.1
+pad.2 finally.1 catchpad.1
+cont.12 finally.1
+cont.14 finres.1 finret.1
+finres.1 
+finret.1 
+finally.1 finish.1
+finish.1 pad.3 cont.14

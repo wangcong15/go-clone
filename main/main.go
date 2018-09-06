@@ -60,7 +60,7 @@ func parseIR2FeatureVector() {
 		fmt.Println("--- parsing file to feature vectors: " + filePath)
 		featureVectors = append(featureVectors, parseFuncIR(filePath))
 	}
-	writeFeatureVector("../data/function-feature.txt", featureVectors)
+	writeFeatureVector("../data/function-feature.txt", "../data/features", "../data/train-valid-test", featureVectors)
 }
 
 func main() {
