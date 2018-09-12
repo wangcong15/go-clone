@@ -211,7 +211,7 @@ func writeFeatureVector(filePath string, featureDir string, trainValidTestDir st
 	}
 
 	// 4. randomly divide all pairs into trainValidTestDir
-	FuncNameDic := make(map[string]string)
+	// FuncNameDic := make(map[string]string)
 	ClonePairs := []string{}
 	NonClonePairs := []string{}
 	CloneSize := 0
@@ -224,12 +224,12 @@ func writeFeatureVector(filePath string, featureDir string, trainValidTestDir st
 	newTestPath := trainValidTestDir + "/" + "test.csv"
 	jsonResult, err := readJsonFile("../data/function-info.json")
 	checkError(err)
-	for idx, v := range jsonResult {
-		vArr := strings.Split(v, ", ")
-		FuncNameDic[idx] = vArr[len(vArr)-1]
-	}
-	for idx, fn := range FuncNameDic {
-		for idx2, fn2 := range FuncNameDic {
+	// for idx, v := range jsonResult {
+	// vArr := strings.Split(v, ", ")
+	// FuncNameDic[idx] = vArr[len(vArr)-1]
+	// }
+	for idx, fn := range jsonResult {
+		for idx2, fn2 := range jsonResult {
 			if idx > idx2 {
 				continue
 			}

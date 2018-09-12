@@ -19,4 +19,5 @@ A code clone detection tool for go programming language, based on CFG, DFG and d
 * davecheney/gcvis: commit 36a0a6365b720d1d4a0977f6d7244325305029b2
 * eknkc/amber: commit cdade1c073850f4ffc70a829e31235ea6892853b
 * vektra/templar: commit 9ed2efc0a79812c1bf7cddc4cde426a85221aa23
-* AdRoll/hologram: commit f4fb6bc0f6188a6a8b89387baf6ed64b71ade52b
+* AdRoll/hologram: commit f4fb6bc0f6188a6a8b89387baf6ed64b71ade52b #Doing
+

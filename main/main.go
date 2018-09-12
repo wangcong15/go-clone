@@ -67,7 +67,7 @@ func main() {
 	// init the feature type dictionary. this operation is compulsory!
 	initFeatureTypeDict()
 
-	// extractIRInfoAndBody()
+	extractIRInfoAndBody()
 	// analyseIRInfo()
 	parseIR2FeatureVector()
 }
