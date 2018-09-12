@@ -1,5 +1,0 @@
-entry 
-then.1 
-fallthrough.1 
-else.1 
-then.2 

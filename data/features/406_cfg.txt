@@ -1,3 +1,0 @@
-entry then.10 else.10
-then.10 
-else.10 

@@ -1,3 +1,0 @@
-entry then.670 else.670
-then.670 
-else.670 

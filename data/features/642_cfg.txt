@@ -1,6 +1,0 @@
-entry then.22 else.22
-then.22 then.23 else.23
-fallthrough.22 
-else.22 fallthrough.22
-then.23 
-else.23 fallthrough.22

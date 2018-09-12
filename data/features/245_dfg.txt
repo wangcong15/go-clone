@@ -1,3 +1,0 @@
-entry 
-then.60 
-else.60 

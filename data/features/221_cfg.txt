@@ -1,3 +1,0 @@
-entry then.967 else.967
-then.967 
-else.967 

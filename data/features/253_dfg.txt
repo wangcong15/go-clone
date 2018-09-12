@@ -1,3 +1,0 @@
-entry 
-then.75 
-else.75 

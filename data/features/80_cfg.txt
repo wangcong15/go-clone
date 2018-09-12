@@ -1,5 +1,0 @@
-else.81 then.82 command_line_arguments.node.Name.exit
-then.82 
-command_line_arguments.node.Name.exit 
-entry then.81 else.81
-then.81 

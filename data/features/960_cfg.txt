@@ -1,3 +1,0 @@
-entry then.8 else.8
-then.8 
-else.8 

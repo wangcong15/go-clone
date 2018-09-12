@@ -1,6 +1,0 @@
-entry then.36 else.36
-then.36 then.37 else.37
-fallthrough.36 
-else.36 fallthrough.36
-then.37 
-else.37 fallthrough.36

@@ -1,3 +1,0 @@
-then.830 
-else.830 
-entry 

@@ -1,7 +1,0 @@
-fallthrough.508 then.510 else.510
-then.509 
-else.509 fallthrough.508
-then.510 
-else.510 
-entry then.508 fallthrough.508
-then.508 then.509 else.509

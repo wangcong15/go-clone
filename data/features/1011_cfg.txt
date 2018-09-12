@@ -1,3 +1,0 @@
-entry then.1018 else.1018
-then.1018 
-else.1018 

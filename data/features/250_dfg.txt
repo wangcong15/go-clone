@@ -1,3 +1,0 @@
-entry 
-then.71 
-else.71 

@@ -1,6 +1,0 @@
-then.571.i command_line_arguments._validateXcodeInstall.exit
-else.571.i command_line_arguments._validateXcodeInstall.exit
-command_line_arguments._validateXcodeInstall.exit then.570 fallthrough.570
-then.570 fallthrough.570
-fallthrough.570 
-entry then.571.i else.571.i

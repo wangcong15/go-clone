@@ -1,3 +1,0 @@
-then.6 
-else.7 
-entry then.6 else.7

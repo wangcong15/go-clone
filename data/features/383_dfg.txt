@@ -1,3 +1,0 @@
-entry 
-then.7 
-else.7 

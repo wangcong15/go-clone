@@ -1,3 +1,0 @@
-entry 
-then.1012 
-else.1012 

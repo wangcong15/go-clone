@@ -1,3 +1,0 @@
-entry 
-then.687 
-else.687 

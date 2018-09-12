@@ -1,3 +1,0 @@
-entry 
-then.19 
-else.19 

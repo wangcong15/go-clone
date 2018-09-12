@@ -1,6 +1,0 @@
-else.1 label.1 label.2
-label.2 
-entry label.1
-label.1 then.0 fallthrough.0
-then.0 fallthrough.0
-fallthrough.0 else.1 label.2

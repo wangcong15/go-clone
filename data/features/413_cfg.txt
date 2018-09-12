@@ -1,3 +1,0 @@
-else.50 
-entry then.50 else.50
-then.50 

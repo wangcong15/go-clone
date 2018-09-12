@@ -1,3 +1,0 @@
-entry then.1052 else.1052
-then.1052 
-else.1052 

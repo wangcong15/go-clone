@@ -1,3 +1,0 @@
-entry 
-then.48 
-else.48 

@@ -1,3 +1,0 @@
-entry 
-then.13 
-else.13 

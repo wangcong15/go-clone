@@ -1,5 +1,0 @@
-label.2 else.52 label.3
-label.3 else.52
-entry else.52 label.0
-else.52 
-label.0 else.52 label.2

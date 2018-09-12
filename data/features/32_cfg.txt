@@ -1,3 +1,0 @@
-then.2 
-else.2 
-entry then.2 else.2

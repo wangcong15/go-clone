@@ -1,4 +1,0 @@
-entry 
-fallthrough.605 
-then.606 
-else.606 

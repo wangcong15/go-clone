@@ -1,3 +1,0 @@
-switch.lookup 
-command_line_arguments.orientation.exit 
-entry switch.lookup command_line_arguments.orientation.exit

@@ -1,3 +1,0 @@
-entry 
-then.1016 
-else.1016 
