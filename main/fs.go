@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"regexp"
 	"strconv"
 	"strings"
 )
@@ -123,7 +124,7 @@ func getSubDirs(rootPath string) (dirs []string, err error) {
 	return dirs, nil
 }
 
-func writeFeatureVector(filePath string, featureDir string, trainValidTestDir string, featureVectors []FeatureVector) {
+func writeFeatureVector(featureDir string, featureVectors []FeatureVector) {
 	var idx string
 	fmt.Println("write features into featureDir")
 	for tempIdx, fv := range featureVectors {
@@ -145,7 +146,7 @@ func writeFeatureVector(filePath string, featureDir string, trainValidTestDir st
 		tempCfgMap := make(map[string][]string)
 		tempDfgMap := make(map[string][]string)
 
-		// 2. write features into featureDir
+		// 1. write features into featureDir
 		for k, v := range fv.lsfgNodes {
 			resultStr += k + ","
 			tempCfgMap[k] = []string{}
@@ -157,7 +158,7 @@ func writeFeatureVector(filePath string, featureDir string, trainValidTestDir st
 		}
 		writeWithFileWrite(newFeatureFilePath, resultStr)
 
-		// 3. write cfg & dfg into featureDir
+		// 2. write cfg & dfg into featureDir
 		resultCfgStr := ""
 		resultDfgStr := ""
 
@@ -188,77 +189,4 @@ func writeFeatureVector(filePath string, featureDir string, trainValidTestDir st
 		writeWithFileWrite(newCfgFilePath, resultCfgStr)
 		writeWithFileWrite(newDfgFilePath, resultDfgStr)
 	}
-
-	// 4. randomly divide all pairs into trainValidTestDir
-	// FuncNameDic := make(map[string]string)
-	fmt.Println("randomly divide all pairs into trainValidTestDir")
-	ClonePairs := []string{}
-	NonClonePairs := []string{}
-	CloneSize := 0
-	NonCloneSize := 0
-	NonClonePairNum := 0
-	resultStrTrain := ""
-	resultStrValid := ""
-	resultStrTest := ""
-	newTrainPath := trainValidTestDir + "/" + "train.csv"
-	newValidPath := trainValidTestDir + "/" + "valid.csv"
-	newTestPath := trainValidTestDir + "/" + "test.csv"
-	jsonResult, err := readJsonFile("../data/function-info.json")
-	checkError(err)
-	for idx, fn := range jsonResult {
-		for idx2, fn2 := range jsonResult {
-			if idx >= idx2 {
-				continue
-			}
-			if fn == fn2 {
-				ClonePairs = append(ClonePairs, idx+","+idx2)
-				CloneSize++
-			} else {
-				// NonClonePairs = append(NonClonePairs, idx+","+idx2)
-				NonClonePairNum++
-			}
-		}
-	}
-	NonCloneRatio := NonClonePairNum / CloneSize
-	fmt.Println("NonCloneRatio: ", NonCloneRatio)
-	counter := 0
-	for idx, fn := range jsonResult {
-		for idx2, fn2 := range jsonResult {
-			if idx >= idx2 {
-				continue
-			}
-			if fn != fn2 {
-				if counter%NonCloneRatio == 0 {
-					NonClonePairs = append(NonClonePairs, idx+","+idx2)
-				}
-				counter++
-			}
-		}
-	}
-	NonCloneSize = len(NonClonePairs)
-	fmt.Println("Clone Pairs: ", CloneSize)
-	fmt.Println("Non-Clone Pairs: ", NonCloneSize)
-
-	for i := 0; i < CloneSize; i++ {
-		if i%10000 == 0 {
-			fmt.Println(i, "...")
-		}
-		if i%10 < 6 {
-			resultStrTrain += ClonePairs[i] + ",1\n"
-			resultStrTrain += NonClonePairs[i] + ",-1\n"
-		} else if i%10 >= 6 && i%10 < 8 {
-			resultStrValid += ClonePairs[i] + ",1\n"
-			resultStrValid += NonClonePairs[i] + ",-1\n"
-		} else {
-			resultStrTest += ClonePairs[i] + ",1\n"
-			resultStrTest += NonClonePairs[i] + ",-1\n"
-		}
-	}
-	fmt.Println("Writing resultStrTrain")
-	writeWithFileWrite(newTrainPath, resultStrTrain)
-	fmt.Println("Writing resultStrValid")
-	writeWithFileWrite(newValidPath, resultStrValid)
-	fmt.Println("Writing resultStrTest")
-	writeWithFileWrite(newTestPath, resultStrTest)
-
 }
