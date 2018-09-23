@@ -1,5 +1,7 @@
 .DS_Store
-data/
+data/features/*
+data/function-ir/*
+data/function-info.json
 !data/features/readme.md
 !data/function-ir/readme.md
 llvm-ir-data/*
