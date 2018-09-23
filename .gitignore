@@ -1,3 +1,4 @@
 .DS_Store
-llvm-ir-data/
 data/
+llvm-ir-data/*
+!llvm-ir-data/readme.md
