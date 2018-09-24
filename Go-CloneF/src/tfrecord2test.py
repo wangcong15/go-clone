@@ -85,7 +85,6 @@ class GoCloneTfHandler(object):
         self.exist_model = exist_model
         self.ckpt_file = ckpt_file
         self.func_info_path = func_info_path
-        self.curr_idx = 0
         self.pair_list = []
 
         self.logger = logging.getLogger("default")
@@ -296,11 +295,9 @@ class GoCloneTfHandler(object):
                         predict = dis.eval(
                             feed_dict={cfg_left: cfg_1, dfg_left: dfg_1, fea_left: fea_1, v_num_left: v_num_1, cfg_right: cfg_2,
                                     dfg_right: dfg_2, fea_right: fea_2, v_num_right: v_num_2, labels: y, dropout_f: 1.0})
-                        for p in predict:
-                            # if self.curr_idx < len(self.pair_list):
-                            (id1, id2) = self.pair_list[self.curr_idx]
+                        for k, p in enumerate(predict):
+                            (id1, id2) = self.pair_list[y[k][0]]
                             result_dic[(func_info_dic[id1], func_info_dic[id2])] = p[0]
-                            self.curr_idx += 1
                         if m % 20 == 0:
                            self.logger.info("Testing: %s/%s" % (m, test_total_batch))
 

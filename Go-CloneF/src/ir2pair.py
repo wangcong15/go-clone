@@ -24,10 +24,12 @@ class PairsHandler(object):
 		pairs = []
 		data_keys = data.keys()
 		length_data_keys = len(data_keys)
+		counter = 0
 		print "%s keys in total" % length_data_keys
 		for i in range(0, length_data_keys - 1):
 			for j in range(i + 1, length_data_keys):
-				test_str += "%s,%s,0\n" % (data_keys[i], data_keys[j])
+				test_str += "%s,%s,%s\n" % (data_keys[i], data_keys[j], counter)
+				counter += 1
 
 		with open(test_csv_path, "w") as f:
 			f.write(test_str)
