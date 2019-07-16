@@ -1,10 +1,9 @@
 {
-    "features_path" : "/Users/wangcong.666/Documents/code/Go-Clone/Go-CloneE/data/features",
-    "func_info_path" : "/Users/wangcong.666/Documents/code/Go-Clone/Go-CloneE/data/function-info.json",
-    "test_file" : "/Users/wangcong.666/Documents/code/Go-Clone/Go-CloneF/test-pairs/test.csv",
-    "test_tfrecord" : "/Users/wangcong.666/Documents/code/Go-Clone/Go-CloneF/tfrecord/test.tfrecord",
-    "exist_model" : "/Users/wangcong.666/Documents/code/Go-Clone/Go-CloneF/model/",
-    "ckpt_file" : "/Users/wangcong.666/Documents/code/Go-Clone/Go-CloneF/model/5.ckpt.meta",
-    "test_file" : "/Users/wangcong.666/Documents/code/Go-Clone/Go-CloneF/test-pairs/test.csv",
-    "result_file" : "/Users/wangcong.666/Documents/code/Go-Clone/Go-CloneF/result.txt"
+    "features_path" : "/home/wangcong/Desktop/go-clone/Go-CloneE/data/features",
+    "func_info_path" : "/home/wangcong/Desktop/go-clone/Go-CloneE/data/function-info.json",
+    "test_file" : "/home/wangcong/Desktop/go-clone/Go-CloneF/test-pairs/test.csv",
+    "test_tfrecord" : "/home/wangcong/Desktop/go-clone/Go-CloneF/tfrecord/test.tfrecord",
+    "exist_model" : "/home/wangcong/Desktop/go-clone/Go-CloneF/model/",
+    "ckpt_file" : "/home/wangcong/Desktop/go-clone/Go-CloneF/model/5.ckpt.meta",
+    "result_file" : "/home/wangcong/Desktop/go-clone/Go-CloneF/result.txt"
 }
